@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: taxi_lights_signals_right
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 48
+    topology: 0
+    firstVertex: 0
+    vertexCount: 21
+    localAABB:
+      m_Center: {x: -0.7077391, y: -0.2167505, z: 0.41279444}
+      m_Extent: {x: 0.083667755, y: 2.2692714, z: 0.10123435}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 0000010002000000030001000200010004000200040005000200050006000700020006000700060008000900020007000900000002000a000b000c000c000d000a000c000e000d000f000b000a000f0010000b00110012001300110014001200
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 9
+    m_VertexCount: 21
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 420
+    _typelessdata: 318133bf4e520240cf87ba3ea547013f04ef573fc9c241bf5ed50040f944a33e9616083f8d1c473f29ec40bf12090040cf87ba3ed915083f064f573f338133bf815c0340ce849f3ee847013f6641473f717348bfec79fa3fd4eaa63ef0461c3f0c9e483f9faf49bff40bf43fd181be3e46ea1c3f8ece563f09ae46bfff0bf03f0829e93e24791c3f665d6d3f05743dbf4ea8f93fdaacfb3e9d15083fb7d1793f71e243bfce47f13f80eafc3e5f701a3fa46a7b3fed8033bfc28dfd3f40c1fa3e1f49013f78d8793f54dd42bf25d11cc07416dc3e87cc063f23cd5e3f305741bfb1d91cc08b95033fa3b6063f6468793f50f546bf733917c06497033f181f153fad6a793fa4994abf037313c0febbdc3e25ca1e3f60335f3f86f948bf612d15c0c375fb3e3e5d1a3f3f2d723f708a38bfafe51ec02816dc3eb178013ff3cc5e3f2cb436bfabea1ec0a994033fed6b013f4b67793f24c31fbf1e121fc09c94033f3d8b003f37f67a3f708a38bfafe51ec02816dc3ed5c41d3f6728483f0a9f20bffc1a1fc02216dc3e9b8e013f6728483f2cb436bfabea1ec0a994033f2a9a1b3f65f67a3f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.7077391, y: -0.2167505, z: 0.41279444}
+    m_Extent: {x: 0.083667755, y: 2.2692714, z: 0.10123435}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

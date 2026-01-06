@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MSC_skybox
+  m_Shader: {fileID: 4800000, guid: 39465eb9c5cd52045bcd84c59d8a6457, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs: {}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 1
+    - first:
+        name: _Exposure
+      second: 0.5
+    - first:
+        name: _SunSize
+      second: 0.04
+    - first:
+        name: _AtmosphereThickness
+      second: 1.5
+    - first:
+        name: _EmissionLM
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.9852941, g: 0.95731413, b: 0.8838668, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _SkyTint
+      second: {r: 0.10207612, g: 0.2352941, b: 0.10299485, a: 1}
+    - first:
+        name: _GroundColor
+      second: {r: 0, g: 0, b: 0, a: 1}

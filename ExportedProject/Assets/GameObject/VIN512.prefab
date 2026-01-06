@@ -1,0 +1,2775 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1546108465892938
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4585165754696250}
+  - 33: {fileID: 33088638902490851}
+  - 23: {fileID: 23408196488771915}
+  - 54: {fileID: 54629544327928197}
+  - 64: {fileID: 64794975207866957}
+  - 114: {fileID: 114678159344754731}
+  - 114: {fileID: 114220671998378166}
+  m_Layer: 19
+  m_Name: VIN512
+  m_TagString: PART
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4585165754696250
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546108465892938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!33 &33088638902490851
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546108465892938}
+  m_Mesh: {fileID: 4300000, guid: 4ba2bd2e7acb95846b6143ccf335f890, type: 2}
+--- !u!23 &23408196488771915
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546108465892938}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4c0a1be7f00f9a249b6bee872e3c544b, type: 2}
+  m_SubsetIndices:
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!54 &54629544327928197
+Rigidbody:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546108465892938}
+  m_Mass: 3
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!64 &64794975207866957
+MeshCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546108465892938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: 3ed38b992439c334a8e545369a2f3ba7, type: 2}
+--- !u!114 &114678159344754731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546108465892938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    usedInTemplate: {fileID: 0}
+    name: Data
+    startState: Init
+    states:
+    - name: Init
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 71
+        y: 196
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: PROCEED
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Load
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BACK
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Status
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetOwner
+        - HutongGames.PlayMaker.Actions.GetName
+        - HutongGames.PlayMaker.Actions.BuildStringFast
+        - HutongGames.PlayMaker.Actions.BuildStringFast
+        - HutongGames.PlayMaker.Actions.BuildStringFast
+        - HutongGames.PlayMaker.Actions.Exists
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 0000000001000000040000000b0000001200000019000000
+        actionHashCodes: 257aa72f09e362)9f9db6a,6f9db6a,6f9db6a,66c6bd90d
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Owner
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Owner
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: ID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: ID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: AID
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: UTAssemblyID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: ID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: WEA
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: UTWear
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: ID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: POS
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: UTPos
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: UTAssemblyID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000000000000000000000000050524f434545444241434b
+        arrayParamSizes: 020000000200000002000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmString
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000001300000012000000010000000c0000001200000012000000120000001100000012000000110000000c0000001200000012000000120000001100000012000000110000000c00000012000000120000001200000011000000120000001100000017000000170000001200000012000000
+        paramName:
+        - storeGameObject
+        - gameObject
+        - storeName
+        - everyFrame
+        - stringParts
+        - 
+        - 
+        - separator
+        - addToEnd
+        - storeResult
+        - everyFrame
+        - stringParts
+        - 
+        - 
+        - separator
+        - addToEnd
+        - storeResult
+        - everyFrame
+        - stringParts
+        - 
+        - 
+        - separator
+        - addToEnd
+        - storeResult
+        - everyFrame
+        - ifExists
+        - ifDoesNotExist
+        - uniqueTag
+        - saveFile
+        paramDataPos: 00000000010000000000000000000000000000000100000002000000030000000100000004000000030000000100000005000000060000000700000005000000080000000700000002000000090000000a0000000b000000090000000c0000000b0000000d000000140000000d0000000e000000
+        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000020000000000000002000000000000000000000000000000000000000200000000000000020000000000000000000000000000000000000002000000000000000200000007000000040000000000000000000000
+    - name: Load
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 219
+        y: 232
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Status
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.LoadInt
+        - HutongGames.PlayMaker.Actions.LoadFloat
+        - HutongGames.PlayMaker.Actions.LoadTransform
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000400000008000000
+        actionHashCodes: 644845.c5154bb742b5f2913
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: UTAssemblyID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        - useVariable: 1
+          name: UTWear
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        - useVariable: 1
+          name: UTPos
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000000001417373656d626c794944000000c64201576561720000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 100000001200000012000000010000000f00000012000000120000000100000014000000120000001200000001000000
+        paramName:
+        - loadValue
+        - uniqueTag
+        - saveFile
+        - loadFromResources
+        - loadValue
+        - uniqueTag
+        - saveFile
+        - loadFromResources
+        - loadValue
+        - uniqueTag
+        - saveFile
+        - loadFromResources
+        paramDataPos: 0000000000000000010000000f000000100000000200000003000000190000000000000004000000050000001a000000
+        paramByteDataSize: 0f0000000000000000000000010000000900000000000000000000000100000000000000000000000000000001000000
+    - name: Save
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 228
+        y: 100
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: PROCEED
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Delete save
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.BoolTest
+        - HutongGames.PlayMaker.Actions.SaveInt
+        - HutongGames.PlayMaker.Actions.SaveFloat
+        - HutongGames.PlayMaker.Actions.SaveTransform
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000004000000070000000a000000
+        actionHashCodes: 3334d1723b1852.5e8d6e5184287a4.b
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: UTAssemblyID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        - useVariable: 1
+          name: UTWear
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        - useVariable: 1
+          name: UTPos
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0001436f6e73756d656450524f43454544000000000001417373656d626c7949440000c6420157656172
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 110000001700000017000000010000001000000012000000120000000f0000001200000012000000140000001200000012000000
+        paramName:
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        - saveValue
+        - uniqueTag
+        - saveFile
+        - saveValue
+        - uniqueTag
+        - saveFile
+        - saveValue
+        - uniqueTag
+        - saveFile
+        paramDataPos: 000000000a0000001100000011000000120000000000000001000000210000000200000003000000000000000400000005000000
+        paramByteDataSize: 0a0000000700000000000000010000000f0000000000000000000000090000000000000000000000000000000000000000000000
+    - name: Status
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 62
+        y: 267
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: PROCEED
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Install 1
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.BuildStringFast
+        - HutongGames.PlayMaker.Actions.SetName
+        - HutongGames.PlayMaker.Actions.SetScale
+        - HutongGames.PlayMaker.Actions.SetIsKinematic
+        - HutongGames.PlayMaker.Actions.IntCompare
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000007000000090000001000000012000000
+        actionHashCodes: f9db6a,6c3e6a958088630601cc678/671d53d18
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: Name
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: Parcel Shelf
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: (VINXX)
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: Name
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: Parcel Shelf
+        - useVariable: 1
+          name: Name
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: Parcel Shelf
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 00000000000000000000000000000000010000803f000000803f000000803f00000000000000000001417373656d626c794944000000000050524f4345454400
+        arrayParamSizes: 02000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 0c0000001200000012000000120000001100000012000000110000001400000012000000140000001c0000000f0000000f0000000f00000001000000010000001400000011000000100000001000000017000000170000001700000001000000
+        paramName:
+        - stringParts
+        - 
+        - 
+        - separator
+        - addToEnd
+        - storeResult
+        - everyFrame
+        - gameObject
+        - name
+        - gameObject
+        - vector
+        - x
+        - y
+        - z
+        - everyFrame
+        - lateUpdate
+        - gameObject
+        - isKinematic
+        - integer1
+        - integer2
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        paramDataPos: 000000000000000001000000020000000000000003000000020000000000000004000000010000000400000011000000160000001b0000002000000021000000020000002200000024000000330000003800000038000000380000003f000000
+        paramByteDataSize: 000000000000000000000000000000000200000000000000020000000000000000000000000000000d000000050000000500000005000000010000000100000000000000020000000f0000000500000000000000000000000700000001000000
+    - name: Is garbage
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 398
+        y: 103
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.DestroyComponent
+        - HutongGames.PlayMaker.Actions.DestroyComponent
+        - HutongGames.PlayMaker.Actions.SetPosition
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000030000000500000007000000
+        actionHashCodes: 29b4727bc3e6a958c3e6a9588b80e9*5
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Rigidbody
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: BoxCollider
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0001436f6e73756d65640100000000000000000000000000000147617262616765537061776e506f73000000000100000000010000000001000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 11000000110000000100000014000000120000001400000012000000140000001c0000000f0000000f0000000f000000070000000100000001000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - gameObject
+        - component
+        - gameObject
+        - component
+        - gameObject
+        - vector
+        - x
+        - y
+        - z
+        - space
+        - everyFrame
+        - lateUpdate
+        paramDataPos: 000000000a0000000c00000000000000000000000100000001000000020000000d000000290000002e00000033000000380000003c0000003d000000
+        paramByteDataSize: 0a000000020000000100000000000000000000000000000000000000000000001c000000050000000500000005000000040000000100000001000000
+    - name: Idle
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 57
+        y: 386
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Stop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000200000004000000
+        actionHashCodes: d23668-cd23668-c9ffa9c66
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams:
+        - TargetObject:
+            useVariable: 1
+            name: Collider
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            typeName: UnityEngine.MeshCollider
+            value: {fileID: 64794975207866957}
+          TargetTypeName: UnityEngine.MeshCollider
+          PropertyName: isTrigger
+          BoolParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value:
+          Vector2Parameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Boolean
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName:
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName:
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          setProperty: 1
+        - TargetObject:
+            useVariable: 1
+            name: Collider
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            typeName: UnityEngine.MeshCollider
+            value: {fileID: 64794975207866957}
+          TargetTypeName: UnityEngine.MeshCollider
+          PropertyName: enabled
+          BoolParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 1
+          FloatParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value:
+          Vector2Parameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Boolean
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName:
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName:
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          setProperty: 1
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 00000000000001417373656d626c794944000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 24000000010000002400000001000000100000001000000001000000
+        paramName:
+        - targetProperty
+        - everyFrame
+        - targetProperty
+        - everyFrame
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 00000000000000000100000001000000020000001100000016000000
+        paramByteDataSize: 000000000100000000000000010000000f0000000500000001000000
+    - name: Another part?
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 52
+        y: 494
+        width: 110
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Stop
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetFsmBool
+        - HutongGames.PlayMaker.Actions.BoolTest
+        - HutongGames.PlayMaker.Actions.SetFsmGameObject
+        - HutongGames.PlayMaker.Actions.SendEventByName
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000005000000090000000e000000
+        actionHashCodes: a51886/03334d172cc35df.87f6e55)6
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Owner
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: InstallPoint
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: InstallPoint
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: InstallPoint
+              tooltip:
+              showInInspector: 1
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: Data
+          sendToChildren:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Data
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Installed
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Data
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ActivePart
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: CHECK
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0001496e7374616c6c6564000001496e7374616c6c656446494e49534845440000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 14000000120000001200000011000000010000001100000017000000170000000100000014000000120000001200000013000000010000001f000000120000000f00000001000000
+        paramName:
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - everyFrame
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000b0000000c000000170000001f0000001f000000010000000200000003000000000000002000000000000000040000002100000026000000
+        paramByteDataSize: 0000000000000000000000000b000000010000000b000000080000000000000001000000000000000000000000000000000000000100000000000000000000000500000001000000
+    - name: Install 2
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 357
+        y: 330
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Mouse off
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetProperty
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d23668-c
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams:
+        - TargetObject:
+            useVariable: 1
+            name: Collider
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            typeName: UnityEngine.MeshCollider
+            value: {fileID: 64794975207866957}
+          TargetTypeName: UnityEngine.MeshCollider
+          PropertyName: isTrigger
+          BoolParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 1
+          FloatParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value:
+          Vector2Parameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Boolean
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName:
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            typeName:
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          setProperty: 1
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 00
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 2400000001000000
+        paramName:
+        - targetProperty
+        - everyFrame
+        paramDataPos: 0000000000000000
+        paramByteDataSize: 0000000001000000
+    - name: Delete save
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 235
+        y: 161
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Delete
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 60733813
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: UTAssemblyID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1200000012000000
+        paramName:
+        - uniqueTag
+        - saveFile
+        paramDataPos: 0000000001000000
+        paramByteDataSize: 0000000000000000
+    - name: Mouse off
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 524
+        y: 332
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Mouse over
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.MousePickEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 29b4727b0829dc(b
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0001475549646973617373656d626c650000000000803f0046494e49534845441300000000000001
+        arrayParamSizes: 01000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmInt
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 110000001100000001000000140000000f000000170000001700000017000000170000000c000000100000001100000001000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - GameObject
+        - rayDistance
+        - mouseOver
+        - mouseDown
+        - mouseUp
+        - mouseOff
+        - layerMask
+        - 
+        - invertMask
+        - everyFrame
+        paramDataPos: 00000000100000001200000000000000130000001800000020000000200000002000000000000000200000002500000027000000
+        paramByteDataSize: 10000000020000000100000000000000050000000800000000000000000000000000000000000000050000000200000001000000
+    - name: Mouse over
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 525
+        y: 396
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Mouse off
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: PROCEED
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Remove
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.MousePickEvent
+        - HutongGames.PlayMaker.Actions.GetMouseButtonDown
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000030000000d000000
+        actionHashCodes: 29b4727b0829dc(b2d8b867b
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0001475549646973617373656d626c650100010000803f0046494e495348454413000000000000010100000050524f434545440001
+        arrayParamSizes: 01000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmInt
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 110000001100000001000000140000000f000000170000001700000017000000170000000c000000100000001100000001000000070000001700000011000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - GameObject
+        - rayDistance
+        - mouseOver
+        - mouseDown
+        - mouseUp
+        - mouseOff
+        - layerMask
+        - 
+        - invertMask
+        - everyFrame
+        - button
+        - sendEvent
+        - storeResult
+        paramDataPos: 00000000100000001200000000000000130000001800000018000000180000001800000000000000200000002500000027000000280000002c00000033000000
+        paramByteDataSize: 10000000020000000100000000000000050000000000000000000000000000000800000000000000050000000200000001000000040000000700000002000000
+    - name: Stop
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 221
+        y: 453
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: Install 1
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 219
+        y: 334
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Install 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetFsmGameObject
+        - HutongGames.PlayMaker.Actions.SendEventByName
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: cc35df.87f6e55)6
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Owner
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: InstallPoint
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: InstallPoint
+              tooltip:
+              showInInspector: 1
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: Data
+          sendToChildren:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Data
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ActivePart
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: INSTALL
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 00000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 14000000120000001200000013000000010000001f000000120000000f00000001000000
+        paramName:
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000000000000000000020000000100000006000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000500000001000000
+    - name: Remove
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 360
+        y: 407
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Mouse over
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetFsmGameObject
+        - HutongGames.PlayMaker.Actions.SendEventByName
+        - HutongGames.PlayMaker.Actions.NextFrameEvent
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000009000000
+        actionHashCodes: cc35df.87f6e55)6c631a949
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Owner
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: InstallPoint
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: InstallPoint
+              tooltip:
+              showInInspector: 1
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: Data
+          sendToChildren:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Data
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ActivePart
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: REMOVE
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000000000000046494e4953484544
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 14000000120000001200000013000000010000001f000000120000000f0000000100000017000000
+        paramName:
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - sendEvent
+        paramDataPos: 00000000000000000100000000000000000000000000000002000000010000000600000007000000
+        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000050000000100000008000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: ASSEMBLING
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BACK
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BOLTING
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: GARBAGE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: INSTALL
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: PROCEED
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: SAVEGAME
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: SCREW
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: UNINSTALL
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions:
+    - fsmEvent:
+        name: GARBAGE
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Is garbage
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: SAVEGAME
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Save
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: ASSEMBLING
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Another part?
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: INSTALL
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Install 2
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: UNINSTALL
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Idle
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: Wear
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 99
+      intVariables:
+      - useVariable: 1
+        name: AssemblyID
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      boolVariables:
+      - useVariable: 1
+        name: Consumed
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Installed
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      stringVariables:
+      - useVariable: 1
+        name: ID
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value:
+      - useVariable: 1
+        name: Name
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: Parcel Shelf
+      - useVariable: 1
+        name: UTAssemblyID
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value:
+      - useVariable: 1
+        name: UTPos
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value:
+      - useVariable: 1
+        name: UTWear
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value:
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: InstallPoint
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Owner
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables:
+      - useVariable: 1
+        name: Collider
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        typeName: UnityEngine.MeshCollider
+        value: {fileID: 64794975207866957}
+      materialVariables: []
+      textureVariables: []
+    description: "Single attach point NO BOLTS\n"
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    version: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    StepFrame: 0
+    activeStateName:
+  fsmTemplate: {fileID: 0}
+--- !u!114 &114220671998378166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546108465892938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    usedInTemplate: {fileID: 0}
+    name: Upholstery
+    startState: Wait
+    states:
+    - name: Check save
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 63.492188
+        y: 142.67969
+        width: 127
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: EXISTS
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Load
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: DOESNOTEXIST
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Randomize
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetOwner
+        - HutongGames.PlayMaker.Actions.GetFsmString
+        - HutongGames.PlayMaker.Actions.BuildString
+        - HutongGames.PlayMaker.Actions.Exists
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000001000000060000000c000000
+        actionHashCodes: 257aa72f0c0142,9d000fc5c6c6bd90d
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: ThisPart
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Data
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ID
+        - useVariable: 1
+          name: ID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: ID
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: MT
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: UTMaterial
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: UTMaterial
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000455849535453444f45534e4f544558495354
+        arrayParamSizes: 02000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1300000014000000120000001200000012000000010000000c000000120000001200000012000000120000000100000017000000170000001200000012000000
+        paramName:
+        - storeGameObject
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - everyFrame
+        - stringParts
+        - 
+        - 
+        - separator
+        - storeResult
+        - everyFrame
+        - ifExists
+        - ifDoesNotExist
+        - uniqueTag
+        - saveFile
+        paramDataPos: 00000000000000000000000001000000020000000000000000000000030000000400000005000000060000000100000002000000080000000700000008000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000060000000c0000000000000000000000
+    - name: Load
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 282.4922
+        y: 151.67969
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Regular
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.LoadInt
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 644845.c
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: UTMaterial
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 00000000014d6174657269616c494400
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 10000000120000001200000001000000
+        paramName:
+        - loadValue
+        - uniqueTag
+        - saveFile
+        - loadFromResources
+        paramDataPos: 0000000000000000010000000f000000
+        paramByteDataSize: 0f000000000000000000000001000000
+    - name: Save
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 284.4922
+        y: 100.67969
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SaveInt
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3b1852.5
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: UTMaterial
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value:
+        - useVariable: 1
+          name: SaveCarparts
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: carparts.txt
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 00000000014d6174657269616c4944
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 100000001200000012000000
+        paramName:
+        - saveValue
+        - uniqueTag
+        - saveFile
+        paramDataPos: 000000000000000001000000
+        paramByteDataSize: 0f0000000000000000000000
+    - name: Regular
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 285
+        y: 258
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Idle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetFsmGameObject
+        - HutongGames.PlayMaker.Actions.ArrayListGet
+        - HutongGames.PlayMaker.Actions.SetMaterial
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000050000000a000000
+        actionHashCodes: cc35df.8b794bc6d9eeb8e)8
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: DB
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: AssemblyDatabase
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: DB
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: ThisPart
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Functions
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: Interior
+        - useVariable: 1
+          name: ArrayRef
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: Seats
+        fsmObjectParams:
+        - useVariable: 1
+          name: SelectedMaterial
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          typeName: UnityEngine.Object
+          value: {fileID: 0}
+        fsmVarParams:
+        - variableName: SelectedMaterial
+          useVariable: 1
+          type: 9
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue:
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+        byteData: 0000000000014d6174657269616c49440000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 14000000120000001200000013000000010000001400000012000000100000002700000017000000140000001000000020000000
+        paramName:
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - everyFrame
+        - gameObject
+        - reference
+        - atIndex
+        - result
+        - failureEvent
+        - gameObject
+        - materialIndex
+        - material
+        paramDataPos: 00000000000000000100000000000000000000000100000002000000010000000000000010000000020000001000000000000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000f0000000000000000000000000000000500000000000000
+    - name: Wait
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 75
+        y: 262
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Check save
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000803f0046494e495348454401
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
+    - name: Idle
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 76.97656
+        y: 340
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: Randomize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 284
+        y: 326
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Regular
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.RandomInt
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 7a945d+d
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000000001496e6465784d696e0200000001496e6465784d617800000000014d6174657269616c494401
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 10000000100000001000000001000000
+        paramName:
+        - min
+        - max
+        - storeResult
+        - inclusiveMax
+        paramDataPos: 000000000d0000001a00000029000000
+        paramByteDataSize: 0d0000000d0000000f00000001000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: CHANGE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: DOESNOTEXIST
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: EXISTS
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: SAVEGAME
+      isSystemEvent: 0
+      isGlobal: 1
+    globalTransitions:
+    - fsmEvent:
+        name: SAVEGAME
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Save
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: CHANGE
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: Regular
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    variables:
+      floatVariables: []
+      intVariables:
+      - useVariable: 1
+        name: IndexMax
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 2
+      - useVariable: 1
+        name: IndexMin
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: MaterialID
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      boolVariables: []
+      stringVariables:
+      - useVariable: 1
+        name: ArrayRef
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: Interior
+      - useVariable: 1
+        name: ID
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value:
+      - useVariable: 1
+        name: UTMaterial
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value:
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: DB
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: ThisPart
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables:
+      - useVariable: 1
+        name: SelectedMaterial
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        typeName: UnityEngine.Object
+        value: {fileID: 0}
+      textureVariables: []
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    version: 0
+    ExposedEvents:
+    - name: CHANGE
+      isSystemEvent: 0
+      isGlobal: 0
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    StepFrame: 0
+    activeStateName:
+  fsmTemplate: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1546108465892938}
+  m_IsPrefabParent: 1

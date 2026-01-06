@@ -1,0 +1,166 @@
+DEVELOPMENT
+Johannes Rojola
+Kaarina Rojola
+
+VOICE ACTING
+Rami Airola
+Niko Hirvonen
+Simo Kauppinen
+Arto Koukkula
+Jani "StatusD" Kujansuu
+Juho Luomala
+Janne Luomala
+Mies Mikkonen
+Ossi Ojutkangas
+Ossian Puhakka
+Polaventris
+Johannes Rojola
+Kaarina Rojola
+
+MINIGAMES
+Rami Airola
+Simo Kauppinen
+Procyon Products / Amistech Games
+
+ADDITIONAL GRAPHICS
+Arto Koukkula
+Simo Kauppinen
+
+ADDITIONAL PROGRAMMING
+Juha Kiili
+
+MUSIC COMMISSION WORK
+NinjaBaka
+Tempest
+
+RADIO PROGRAM CONTENT
+Rami Airola
+Simo Kauppinen
+Mies Mikkonen
+Ossi Ojutkangas
+
+TV CONTENT
+Rami Airola
+Mies Mikkonen
+NinjaBaka
+Ossi Ojutkangas
+Johannes Rojola
+Guillermo Blanco
+
+RADIO SONGS
+Alex Driveshaft: Complexity
+Alex Driveshaft: Highway of the Lost Transitions
+Aulikki Rautawaara: Solvejgs Lied
+Bloody Moon: Deadly Rendezvous
+Bloody Moon: Lucky Bastard
+Bloody Moon: My Payoff
+Deaf Beethoven: Sonata for Elderly Care
+Fredrik Pacius: Sotilaspoika
+Guillermo Blanco: Karrkulture
+Heikki Mustonen: Kesäbiisi
+Heikki Mustonen: Päättymätön syys
+Heikki Mustonen: Rocken roll mix
+Heikki Mustonen: Routainen maa
+Horn&: Aamukahvin aikaan (Happo/Korvela/Olkkonen)
+Horn&: Savulla ei ollut tahtoa (Happo/Korvela/Olkkonen)
+Hylos 4 - De Espaldas A Dios
+Johannes Rojola: Ehdotelma sävellyskilpailuun
+Johannes Rojola: Klassinen
+Johannes Rojola: Laserboogie
+Johannes Rojola: Lennetään avaruustanssiin
+Johannes Rojola: Masbiliani
+Johannes Rojola: Tontori Kuusinen
+Johannes Rojola: Tony Ylijani demo2
+Johannes Rojola: Vapakirg (Improvisation Remix)
+Johannes Rojola: Walking Around The Green Field...
+Jörkka Sten: Rakkauden pyörteet
+Jörkka Sten: Taksimies
+KTROPR: Boogienation
+KTROPR: Funky Blue Letter
+KTROPR: Marjatta
+Lea Piltti: Mondnacht
+Max Cancer: 2 Bad
+Mojave Projectile: All Is Real
+Mojave Projectile: Professional Identity
+Mojave Projectile: Spanish Afternoon
+Mojave Projectile: Swamp
+NinjaBaka: Anthem
+NinjaBaka: Happy Enigma
+NinjaBaka: Minidisc
+NinjaBaka: Sunset Duo
+NinjaBaka: Visor
+Otto Pyykkönen: Isotalo ja Rannanjärvi
+Rami Airola: 220kmh
+Ressukan Perintö: Narkkarin Tango
+Robert Kajanus: Porilaisten marssi
+Robert Kajanus: Suomen Ratsuväen marssi
+StatusD: Ihme Owned
+StatusD: Jungle War
+StatusD: Space StaTion Has Been ATTACKED
+StatusD: Temples of Goa
+Valerio Moreira: Galeria de arte dos tolos
+Vitus Garváreva: Euroapocalypse
+Vitus Garváreva: euroXplosion
+Willy Larsen trio: Seurasaaren polkka
+
+RADIO SONGS AI GENERATED
+Songs created with Udio
+Lyrics by Rami Airola & Johannes Rojola
+
+Antero Visa: Pierunkuoria ja porkkanoita
+Arto ja Tuula: Lompakonlaihdutuskuuri
+Bassopatetia: Kuvittelet kuumaa
+Caro Haara Goes Broke: Tuo mies
+Daaliat: Kuiskaus talvituuleen
+Edvin Valtavuori: Rytyruusumaa
+Eero Ritvanmies: Ding dang dong dung
+Erja-Riitta Arjenmartti: Viihdyttäjän polku
+Erkka Vähänen: Kurasuon voittaja
+Esa Tauno: Pelasta minut nainen
+Extensio: Oon ylioppilas
+Hannele Haverinen: Siipien ikuisuus
+Hannes Hiltunen: Aika on rahaa
+Housematka: Diskoilta
+Housematka: Matkapuhelin piippaa
+Jaska Alén: Karhunpaini
+Jennya: Katseesi on elokuvaa
+Jennya: Voisko voittaa
+Juhani Valtaranta: Miehen tähteet
+Katriina Katveenkorva: Virtaavan veden valta
+Maretta: Ritmot Janeiron
+Markku Seppälä: Rakkauden syndrooma
+Marko Masell: Seinien salaisuudet
+Matti Lauelma: Kukan terälehdet kuin nainen
+Orvo Robert: Muistojen virta
+Pegga & Bätkä: Vittu mitä vitun
+Puhtaat jalat: Gimma sellainen
+Puolitähti: Rotisko rakkaudella
+Raija-Maija: Hei Hei Goodbye
+Sanna Porilainen: Köyhät kerjäläiset
+Sari Tavastinen: Vain sen verran
+Syntheetikot: Bittilinjoilla
+Taru Terhilehto: Sydäntenlyönnin aika
+Uuni Kaila Band: Huoltamon hustle (instrumental)
+Veyo Yö: Seinien salaisuudet
+Viola: Kukan terälehdet kuin nainen
+Vitorio: Matkapuhelimella
+Yx Yhteen: Leopardi
+
+3RD PARTY SOFTWARE
+UnityCar Pro
+PlayMaker
+Easy Save 2
+Master Audio
+cInput
+Impact Deformable
+Steamworks.NET
+Logitech SDK
+
+SPECIAL THANKS
+All the great people around the world that endured 
+through the world of MY SUMMER CAR and are now trying 
+their luck with this sequel title.
+
+KIITOS JA NÄKEMIIN!
+Amistech Games 
+2025

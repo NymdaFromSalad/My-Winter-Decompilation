@@ -1,0 +1,48 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions
+{
+	[Tooltip("Store all resolutions")]
+	[ActionCategory("ArrayMaker/ArrayList")]
+	public class ArrayListGetScreenResolutions : ArrayListActions
+	{
+		[ActionSection("Set up")]
+		[Tooltip("The gameObject with the PlayMaker ArrayList Proxy component")]
+		[CheckForComponent(typeof(PlayMakerArrayListProxy))]
+		[RequiredField]
+		public FsmOwnerDefault gameObject;
+
+		[Tooltip("Author defined Reference of the PlayMaker ArrayList Proxy component ( necessary if several component coexists on the same GameObject")]
+		public FsmString reference;
+
+		public override void Reset()
+		{
+			gameObject = null;
+			reference = null;
+		}
+
+		public override void OnEnter()
+		{
+			if (SetUpArrayListProxyPointer(base.Fsm.GetOwnerDefaultTarget(gameObject), reference.Value))
+			{
+				getResolutions();
+			}
+			Finish();
+		}
+
+		public void getResolutions()
+		{
+			if (isProxyValid())
+			{
+				proxy.arrayList.Clear();
+				Resolution[] resolutions = Screen.resolutions;
+				Resolution[] array = resolutions;
+				for (int i = 0; i < array.Length; i++)
+				{
+					Resolution resolution = array[i];
+					proxy.arrayList.Add(new Vector3(resolution.width, resolution.height, resolution.refreshRate));
+				}
+			}
+		}
+	}
+}

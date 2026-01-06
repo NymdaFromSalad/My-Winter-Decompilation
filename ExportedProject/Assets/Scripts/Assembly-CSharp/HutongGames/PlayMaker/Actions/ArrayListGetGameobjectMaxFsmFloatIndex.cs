@@ -1,0 +1,105 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions
+{
+	[ActionCategory("ArrayMaker/ArrayList")]
+	[Tooltip("Returns the Gameobject within an arrayList which have the max float value in its FSM")]
+	public class ArrayListGetGameobjectMaxFsmFloatIndex : ArrayListActions
+	{
+		[ActionSection("Set up")]
+		[CheckForComponent(typeof(PlayMakerArrayListProxy))]
+		[Tooltip("The gameObject with the PlayMaker ArrayList Proxy component")]
+		[RequiredField]
+		public FsmOwnerDefault gameObject;
+
+		[Tooltip("Author defined Reference of the PlayMaker ArrayList Proxy component ( necessary if several component coexists on the same GameObject")]
+		public FsmString reference;
+
+		[Tooltip("Optional name of FSM on Game Object")]
+		[UIHint(UIHint.FsmName)]
+		public FsmString fsmName;
+
+		[RequiredField]
+		[UIHint(UIHint.FsmFloat)]
+		public FsmString variableName;
+
+		public bool everyframe;
+
+		[UIHint(UIHint.Variable)]
+		[ActionSection("Result")]
+		public FsmFloat storeMaxValue;
+
+		[UIHint(UIHint.Variable)]
+		public FsmGameObject maxGameObject;
+
+		[UIHint(UIHint.Variable)]
+		public FsmInt maxIndex;
+
+		private GameObject goLastFrame;
+
+		private PlayMakerFSM fsm;
+
+		public override void Reset()
+		{
+			gameObject = null;
+			reference = null;
+			maxGameObject = null;
+			maxIndex = null;
+			everyframe = true;
+			fsmName = string.Empty;
+			storeMaxValue = null;
+		}
+
+		public override void OnEnter()
+		{
+			if (!SetUpArrayListProxyPointer(base.Fsm.GetOwnerDefaultTarget(gameObject), reference.Value))
+			{
+				Finish();
+			}
+			DoFindMaxGo();
+			if (!everyframe)
+			{
+				Finish();
+			}
+		}
+
+		public override void OnUpdate()
+		{
+			DoFindMaxGo();
+		}
+
+		private void DoFindMaxGo()
+		{
+			float num = 0f;
+			if (storeMaxValue.IsNone || !isProxyValid())
+			{
+				return;
+			}
+			int num2 = 0;
+			foreach (GameObject array in proxy.arrayList)
+			{
+				if (array != null)
+				{
+					fsm = ActionHelpers.GetGameObjectFsm(array, fsmName.Value);
+					if (fsm == null)
+					{
+						break;
+					}
+					FsmFloat fsmFloat = fsm.FsmVariables.GetFsmFloat(variableName.Value);
+					if (fsmFloat == null)
+					{
+						break;
+					}
+					if (fsmFloat.Value > num)
+					{
+						storeMaxValue.Value = fsmFloat.Value;
+						num = fsmFloat.Value;
+						maxGameObject.Value = array;
+						maxIndex.Value = num2;
+					}
+				}
+				num2++;
+			}
+		}
+	}
+}

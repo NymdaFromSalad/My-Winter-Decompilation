@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightmapSnapshot:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LightingData
+  m_Lightmaps: []
+  m_LightProbes: {fileID: 25800000, guid: 36a2c06bf2d12824fb07ea60d31d7833, type: 2}
+  m_BakedAmbientProbesInLinear:
+  - sh[ 0]: 0.11419657
+    sh[ 1]: -0.018278865
+    sh[ 2]: -0.010670569
+    sh[ 3]: -7.433482E-05
+    sh[ 4]: -1.04940245E-05
+    sh[ 5]: 0.0014756368
+    sh[ 6]: 0.0129093
+    sh[ 7]: 0.00020155024
+    sh[ 8]: 0.018155016
+    sh[ 9]: 0.1193359
+    sh[10]: -0.021152485
+    sh[11]: -0.018594313
+    sh[12]: -0.00012525728
+    sh[13]: -9.159273E-06
+    sh[14]: 0.0031954823
+    sh[15]: 0.015250146
+    sh[16]: 0.00024942285
+    sh[17]: 0.020410718
+    sh[18]: 0.10542199
+    sh[19]: -0.019960511
+    sh[20]: -0.024849448
+    sh[21]: -0.00016501456
+    sh[22]: 3.469311E-06
+    sh[23]: 0.0067382827
+    sh[24]: 0.012839567
+    sh[25]: 0.00024338068
+    sh[26]: 0.013985819
+  m_BakedAmbientProbesInGamma:
+  - sh[ 0]: 0.3461616
+    sh[ 1]: -0.03106187
+    sh[ 2]: -0.007844225
+    sh[ 3]: -7.861233E-05
+    sh[ 4]: -3.5829744E-05
+    sh[ 5]: 0.0016495138
+    sh[ 6]: 0.015030958
+    sh[ 7]: 0.00020379582
+    sh[ 8]: 0.024465047
+    sh[ 9]: 0.33833426
+    sh[10]: -0.027734328
+    sh[11]: -0.0133181065
+    sh[12]: -0.00011626491
+    sh[13]: -3.491795E-05
+    sh[14]: 0.0030324757
+    sh[15]: 0.016083166
+    sh[16]: 0.0002251924
+    sh[17]: 0.025516743
+    sh[18]: 0.29508692
+    sh[19]: -0.018492838
+    sh[20]: -0.021759942
+    sh[21]: -0.00016902242
+    sh[22]: -1.9519892E-05
+    sh[23]: 0.006220134
+    sh[24]: 0.013777375
+    sh[25]: 0.00022239666
+    sh[26]: 0.018965203
+  m_LightmappedRendererData: []
+  m_LightmappedRendererDataIDs: []
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights: []
+  m_BakedReflectionProbeCubemaps:
+  - {fileID: 8900000, guid: 14de73c3c5c9ec747a866b8b550c05f8, type: 3}
+  m_BakedSkyboxProbeCubemaps: []
+  m_BakedReflectionProbes: []
+  m_EnlightenData: 556e69747946530000000003352e782e7800352e302e3066340000000000000000000000000000000000000000000000000000000000000000000000000000000000
