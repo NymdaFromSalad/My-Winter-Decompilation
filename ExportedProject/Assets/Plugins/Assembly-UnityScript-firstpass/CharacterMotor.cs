@@ -27,6 +27,7 @@ public class CharacterMotor : MonoBehaviour
 			public override bool MoveNext()
 			{
 				int result;
+				int _state = 0; //Fuckme
 				switch (_state)
 				{
 				default:
@@ -35,19 +36,19 @@ public class CharacterMotor : MonoBehaviour
 						if (_0024self__00247.movingPlatform.newPlatform)
 						{
 							_0024platform_00246 = _0024self__00247.movingPlatform.activePlatform;
-							result = (Yield(2, new WaitForFixedUpdate()) ? 1 : 0);
+							result = 1;//(Yield(2, new WaitForFixedUpdate()) ? 1 : 0);
 							break;
 						}
 						goto case 4;
 					}
 					goto IL_0124;
 				case 2:
-					result = (Yield(3, new WaitForFixedUpdate()) ? 1 : 0);
+					result = 1;//(Yield(3, new WaitForFixedUpdate()) ? 1 : 0);
 					break;
 				case 3:
 					if (_0024self__00247.grounded && _0024platform_00246 == _0024self__00247.movingPlatform.activePlatform)
 					{
-						result = (Yield(4, 1) ? 1 : 0);
+						result = 1;//(Yield(4, 1) ? 1 : 0);
 						break;
 					}
 					goto case 4;
@@ -60,7 +61,7 @@ public class CharacterMotor : MonoBehaviour
 						break;
 					}
 					IL_0124:
-					YieldDefault(1);
+					//YieldDefault(1);
 					goto case 1;
 				}
 				return (byte)result != 0;

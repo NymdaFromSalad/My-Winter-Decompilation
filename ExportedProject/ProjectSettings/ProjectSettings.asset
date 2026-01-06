@@ -2,8 +2,8 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!129 &1
 PlayerSettings:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
+  serializedVersion: 6
   AndroidProfiler: 0
   defaultScreenOrientation: 0
   targetDevice: 2
@@ -13,7 +13,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Amistech
   productName: My Winter Car
-  cloudProjectId:
+  cloudProjectId: 
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -80,15 +80,11 @@ PlayerSettings:
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
-  productGUID:
-    data[0]: 0
-    data[1]: 0
-    data[2]: 0
-    data[3]: 0
+  productGUID: 00000000000000000000000000000000
   AndroidBundleVersionCode: 0
-  AndroidMinSdkVersion: 0
+  AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 0
-  aotOptions:
+  aotOptions: 
   apiCompatibilityLevel: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
@@ -98,8 +94,8 @@ PlayerSettings:
   APKExpansionFiles: 0
   preloadShaders: 0
   StripUnusedMeshComponents: 0
-  iPhoneSdkVersion: 0
-  iPhoneTargetOSVersion: 0
+  iPhoneSdkVersion: 988
+  iPhoneTargetOSVersion: 22
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIStatusBarHidden: 0
@@ -122,11 +118,11 @@ PlayerSettings:
     serializedVersion: 2
     rgba: 0
   iOSLaunchScreenFillPct: 0
-  iOSLaunchScreenCustomXibPath:
+  iOSLaunchScreenCustomXibPath: 
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName:
-  AndroidKeyaliasName:
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
   AndroidTVCompatibility: 0
   AndroidIsGame: 0
   androidEnableBanner: 0
@@ -134,16 +130,16 @@ PlayerSettings:
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons: []
   m_BuildTargetBatching: []
-  webPlayerTemplate:
+  webPlayerTemplate: 
   m_TemplateCustomTags: {}
   actionOnDotNetUnhandledException: 0
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 0
   enableCrashReportAPI: 0
-  locationUsageDescription:
-  XboxTitleId:
-  XboxImageXexPath:
-  XboxSpaPath:
+  locationUsageDescription: 
+  XboxTitleId: 
+  XboxImageXexPath: 
+  XboxSpaPath: 
   XboxGenerateSpa: 0
   XboxDeployKinectResources: 0
   XboxSplashScreen: {fileID: 0}
@@ -151,17 +147,17 @@ PlayerSettings:
   xboxAdditionalTitleMemorySize: 0
   xboxDeployKinectHeadOrientation: 0
   xboxDeployKinectHeadPosition: 0
-  ps3TitleConfigPath:
-  ps3DLCConfigPath:
-  ps3ThumbnailPath:
-  ps3BackgroundPath:
-  ps3SoundPath:
+  ps3TitleConfigPath: 
+  ps3DLCConfigPath: 
+  ps3ThumbnailPath: 
+  ps3BackgroundPath: 
+  ps3SoundPath: 
   ps3NPAgeRating: 0
-  ps3TrophyCommId:
-  ps3NpCommunicationPassphrase:
-  ps3TrophyPackagePath:
+  ps3TrophyCommId: 
+  ps3NpCommunicationPassphrase: 
+  ps3TrophyPackagePath: 
   ps3BootCheckMaxSaveGameSizeKB: 0
-  ps3TrophyCommSig:
+  ps3TrophyCommSig: 
   ps3SaveGameSlots: 0
   ps3TrialMode: 0
   ps3VideoMemoryForAudio: 0
@@ -170,73 +166,73 @@ PlayerSettings:
   ps3EnableMoveSupport: 0
   ps3DisableDolbyEncoding: 0
   ps4NPAgeRating: 0
-  ps4NPTitleSecret:
-  ps4NPTrophyPackPath:
+  ps4NPTitleSecret: 
+  ps4NPTrophyPackPath: 
   ps4ParentalLevel: 0
-  ps4ContentID:
+  ps4ContentID: 
   ps4Category: 0
-  ps4MasterVersion:
-  ps4AppVersion:
+  ps4MasterVersion: 
+  ps4AppVersion: 
   ps4AppType: 0
-  ps4ParamSfxPath:
+  ps4ParamSfxPath: 
   ps4VideoOutPixelFormat: 0
   ps4VideoOutResolution: 0
-  ps4PronunciationXMLPath:
-  ps4PronunciationSIGPath:
-  ps4BackgroundImagePath:
-  ps4StartupImagePath:
-  ps4SaveDataImagePath:
-  ps4BGMPath:
-  ps4ShareFilePath:
-  ps4NPtitleDatPath:
+  ps4PronunciationXMLPath: 
+  ps4PronunciationSIGPath: 
+  ps4BackgroundImagePath: 
+  ps4StartupImagePath: 
+  ps4SaveDataImagePath: 
+  ps4BGMPath: 
+  ps4ShareFilePath: 
+  ps4NPtitleDatPath: 
   ps4RemotePlayKeyAssignment: 0
   ps4EnterButtonAssignment: 0
   ps4ApplicationParam1: 0
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
   ps4ApplicationParam4: 0
-  ps4Passcode:
+  ps4Passcode: 
   ps4pnSessions: 0
   ps4pnPresence: 0
   ps4pnFriends: 0
   ps4pnGameCustomData: 0
   playerPrefsSupport: 0
-  monoEnv:
+  monoEnv: 
   psp2Splashimage: {fileID: 0}
-  psp2NPTrophyPackPath:
+  psp2NPTrophyPackPath: 
   psp2NPSupportGBMorGJP: 0
   psp2NPAgeRating: 0
-  psp2NPCommsID:
-  psp2NPCommunicationsID:
-  psp2NPCommsPassphrase:
-  psp2NPCommsSig:
-  psp2ParamSfxPath:
-  psp2ManualPath:
-  psp2LiveAreaGatePath:
-  psp2LiveAreaBackroundPath:
-  psp2LiveAreaPath:
-  psp2LiveAreaTrialPath:
-  psp2PatchChangeInfoPath:
-  psp2PatchOriginalPackage:
-  psp2PackagePassword:
-  psp2KeystoneFile:
+  psp2NPCommsID: 
+  psp2NPCommunicationsID: 
+  psp2NPCommsPassphrase: 
+  psp2NPCommsSig: 
+  psp2ParamSfxPath: 
+  psp2ManualPath: 
+  psp2LiveAreaGatePath: 
+  psp2LiveAreaBackroundPath: 
+  psp2LiveAreaPath: 
+  psp2LiveAreaTrialPath: 
+  psp2PatchChangeInfoPath: 
+  psp2PatchOriginalPackage: 
+  psp2PackagePassword: 
+  psp2KeystoneFile: 
   psp2DRMType: 0
   psp2StorageType: 0
   psp2MediaCapacity: 0
-  psp2DLCConfigPath:
-  psp2ThumbnailPath:
-  psp2BackgroundPath:
-  psp2SoundPath:
-  psp2TrophyCommId:
-  psp2TrophyPackagePath:
-  psp2PackagedResourcesPath:
+  psp2DLCConfigPath: 
+  psp2ThumbnailPath: 
+  psp2BackgroundPath: 
+  psp2SoundPath: 
+  psp2TrophyCommId: 
+  psp2TrophyPackagePath: 
+  psp2PackagedResourcesPath: 
   psp2SaveDataQuota: 0
   psp2ParentalLevel: 0
-  psp2ShortTitle:
-  psp2ContentID:
+  psp2ShortTitle: 
+  psp2ContentID: 
   psp2Category: 0
-  psp2MasterVersion:
-  psp2AppVersion:
+  psp2MasterVersion: 
+  psp2AppVersion: 
   psp2TVBootMode: 0
   psp2EnterButtonAssignment: 0
   psp2TVDisableEmu: 0
@@ -247,60 +243,60 @@ PlayerSettings:
   psp2InfoBarOnStartup: 0
   psp2InfoBarColor: 0
   psmSplashimage: {fileID: 0}
-  spritePackerPolicy:
+  spritePackerPolicy: 
   scriptingDefineSymbols: {}
-  metroPackageName:
-  metroPackageLogo:
-  metroPackageLogo140:
-  metroPackageLogo180:
-  metroPackageLogo240:
-  metroPackageVersion:
-  metroCertificatePath:
-  metroCertificatePassword:
-  metroCertificateSubject:
-  metroCertificateIssuer:
-  metroCertificateNotAfter: 0
-  metroApplicationDescription:
-  metroStoreTileLogo80:
-  metroStoreTileLogo:
-  metroStoreTileLogo140:
-  metroStoreTileLogo180:
-  metroStoreTileWideLogo80:
-  metroStoreTileWideLogo:
-  metroStoreTileWideLogo140:
-  metroStoreTileWideLogo180:
-  metroStoreTileSmallLogo80:
-  metroStoreTileSmallLogo:
-  metroStoreTileSmallLogo140:
-  metroStoreTileSmallLogo180:
-  metroStoreSmallTile80:
-  metroStoreSmallTile:
-  metroStoreSmallTile140:
-  metroStoreSmallTile180:
-  metroStoreLargeTile80:
-  metroStoreLargeTile:
-  metroStoreLargeTile140:
-  metroStoreLargeTile180:
-  metroStoreSplashScreenImage:
-  metroStoreSplashScreenImage140:
-  metroStoreSplashScreenImage180:
-  metroPhoneAppIcon:
-  metroPhoneAppIcon140:
-  metroPhoneAppIcon240:
-  metroPhoneSmallTile:
-  metroPhoneSmallTile140:
-  metroPhoneSmallTile240:
-  metroPhoneMediumTile:
-  metroPhoneMediumTile140:
-  metroPhoneMediumTile240:
-  metroPhoneWideTile:
-  metroPhoneWideTile140:
-  metroPhoneWideTile240:
-  metroPhoneSplashScreenImage:
-  metroPhoneSplashScreenImage140:
-  metroPhoneSplashScreenImage240:
-  metroTileShortName:
-  metroCommandLineArgsFile:
+  metroPackageName: 
+  metroPackageLogo: 
+  metroPackageLogo140: 
+  metroPackageLogo180: 
+  metroPackageLogo240: 
+  metroPackageVersion: 
+  metroCertificatePath: 
+  metroCertificatePassword: 
+  metroCertificateSubject: 
+  metroCertificateIssuer: 
+  metroCertificateNotAfter: d0d0d0d0d0d0d0d0
+  metroApplicationDescription: 
+  metroStoreTileLogo80: 
+  metroStoreTileLogo: 
+  metroStoreTileLogo140: 
+  metroStoreTileLogo180: 
+  metroStoreTileWideLogo80: 
+  metroStoreTileWideLogo: 
+  metroStoreTileWideLogo140: 
+  metroStoreTileWideLogo180: 
+  metroStoreTileSmallLogo80: 
+  metroStoreTileSmallLogo: 
+  metroStoreTileSmallLogo140: 
+  metroStoreTileSmallLogo180: 
+  metroStoreSmallTile80: 
+  metroStoreSmallTile: 
+  metroStoreSmallTile140: 
+  metroStoreSmallTile180: 
+  metroStoreLargeTile80: 
+  metroStoreLargeTile: 
+  metroStoreLargeTile140: 
+  metroStoreLargeTile180: 
+  metroStoreSplashScreenImage: 
+  metroStoreSplashScreenImage140: 
+  metroStoreSplashScreenImage180: 
+  metroPhoneAppIcon: 
+  metroPhoneAppIcon140: 
+  metroPhoneAppIcon240: 
+  metroPhoneSmallTile: 
+  metroPhoneSmallTile140: 
+  metroPhoneSmallTile240: 
+  metroPhoneMediumTile: 
+  metroPhoneMediumTile140: 
+  metroPhoneMediumTile240: 
+  metroPhoneWideTile: 
+  metroPhoneWideTile140: 
+  metroPhoneWideTile240: 
+  metroPhoneSplashScreenImage: 
+  metroPhoneSplashScreenImage140: 
+  metroPhoneSplashScreenImage240: 
+  metroTileShortName: 
+  metroCommandLineArgsFile: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -311,18 +307,18 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities: {}
-  metroFTAName:
+  metroFTAName: 
   metroFTAFileTypes: []
-  metroProtocolName:
+  metroProtocolName: 
   metroCompilationOverrides: 0
-  blackberryDeviceAddress:
-  blackberryDevicePassword:
-  blackberryTokenPath:
-  blackberryTokenExires:
-  blackberryTokenAuthor:
-  blackberryTokenAuthorId:
-  blackberryCskPassword:
-  blackberrySaveLogPath:
+  blackberryDeviceAddress: 
+  blackberryDevicePassword: 
+  blackberryTokenPath: 
+  blackberryTokenExires: 
+  blackberryTokenAuthor: 
+  blackberryTokenAuthorId: 
+  blackberryCskPassword: 
+  blackberrySaveLogPath: 
   blackberrySharedPermissions: 0
   blackberryCameraPermissions: 0
   blackberryGPSPermissions: 0
@@ -333,37 +329,58 @@ PlayerSettings:
   blackberryLandscapeSplashScreen: {fileID: 0}
   blackberryPortraitSplashScreen: {fileID: 0}
   blackberrySquareSplashScreen: {fileID: 0}
-  tizenProductDescription:
-  tizenProductURL:
-  tizenCertificatePath:
-  tizenCertificatePassword:
+  tizenProductDescription: 
+  tizenProductURL: 
+  tizenCertificatePath: 
+  tizenCertificatePassword: 
   tizenGPSPermissions: 0
   tizenMicrophonePermissions: 0
-  stvDeviceAddress:
-  stvProductDescription:
-  stvProductAuthor:
-  stvProductAuthorEmail:
-  stvProductLink:
+  stvDeviceAddress: 
+  stvProductDescription: 
+  stvProductAuthor: 
+  stvProductAuthorEmail: 
+  stvProductLink: 
   stvProductCategory: 0
-  XboxOneProductId:
-  XboxOneUpdateKey:
-  XboxOneSandboxId:
-  XboxOneContentId:
-  XboxOneTitleId:
-  XboxOneSCId:
-  XboxOneGameOsOverridePath:
-  XboxOnePackagingOverridePath:
-  XboxOneAppManifestOverridePath:
+  XboxOneProductId: 
+  XboxOneUpdateKey: 
+  XboxOneSandboxId: 
+  XboxOneContentId: 
+  XboxOneTitleId: 
+  XboxOneSCId: 
+  XboxOneGameOsOverridePath: 
+  XboxOnePackagingOverridePath: 
+  XboxOneAppManifestOverridePath: 
   XboxOnePackageEncryption: 0
-  XboxOneDescription:
+  XboxOneDescription: 
   XboxOneIsContentPackage: 0
   XboxOneEnableGPUVariability: 0
   XboxOneSockets: {}
   XboxOneSplashScreen: {fileID: 0}
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
-  intPropertyNames: []
-  boolPropertyNames: []
-  XboxOne::enus: 0
-  stringPropertyNames: []
+  intPropertyNames:
+  - Metro::ScriptingBackend
+  - WP8::ScriptingBackend
+  - WebGL::ScriptingBackend
+  - WebGL::audioCompressionFormat
+  - WebGL::exceptionSupport
+  - WebGL::memorySize
+  - iOS::Architecture
+  - iOS::ScriptingBackend
+  Metro::ScriptingBackend: 2
+  WP8::ScriptingBackend: 2
+  WebGL::ScriptingBackend: 1
+  WebGL::audioCompressionFormat: 4
+  WebGL::exceptionSupport: 0
+  WebGL::memorySize: 256
+  iOS::Architecture: 2
+  iOS::ScriptingBackend: 0
+  boolPropertyNames:
+  - WebGL::dataCaching
+  WebGL::dataCaching: 0
+  stringPropertyNames:
+  - WebGL::emscriptenArgs
+  - WebGL::template
+  WebGL::emscriptenArgs: 
+  WebGL::template: APPLICATION:Default
   firstStreamedLevelWithResources: 0

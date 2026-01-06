@@ -22,12 +22,12 @@ public class S_MetalRain : MonoBehaviour
 
 			public override bool MoveNext()
 			{
-				int result;
-				switch (_state)
+				int result = 0;
+				switch (1)
 				{
 				default:
 					UnityEngine.Object.Instantiate(_0024self__002430.RainObject, new Vector3((UnityEngine.Random.value - 0.5f) * 20f, UnityEngine.Random.value * 40f + 10f, (UnityEngine.Random.value - 0.5f) * 20f), Quaternion.identity);
-					result = (Yield(2, new WaitForSeconds(UnityEngine.Random.value * 0.2f + 0.1f)) ? 1 : 0);
+					result = 1;//(Yield(2, new WaitForSeconds(UnityEngine.Random.value * 0.2f + 0.1f)) ? 1 : 0);
 					break;
 				case 1:
 					result = 0;

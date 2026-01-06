@@ -51,7 +51,7 @@ public class deform_842 : MonoBehaviour
 		sleep = false;
 		Vector3[] vertices = mesh.vertices;
 		Matrix4x4 worldToLocalMatrix = transform.worldToLocalMatrix;
-		for (int i = 0; i < Extensions.get_length((System.Array)vertices); i++)
+		for (int i = 0; i < ((System.Array)vertices).Length; i++)
 		{
 			int j = 0;
 			ContactPoint[] contacts = collision.contacts;
@@ -89,7 +89,7 @@ public class deform_842 : MonoBehaviour
 		Matrix4x4 worldToLocalMatrix = transform.worldToLocalMatrix;
 		point = worldToLocalMatrix.MultiplyPoint(point);
 		Vector3 vector = worldToLocalMatrix.MultiplyVector(direction);
-		for (int i = 0; i < Extensions.get_length((System.Array)vertices); i++)
+		for (int i = 0; i < ((System.Array)vertices).Length; i++)
 		{
 			if (!((point - vertices[i]).magnitude > deformRadius))
 			{
@@ -117,7 +117,7 @@ public class deform_842 : MonoBehaviour
 		}
 		sleep = true;
 		Vector3[] vertices = mesh.vertices;
-		for (int i = 0; i < Extensions.get_length((System.Array)vertices); i++)
+		for (int i = 0; i < ((System.Array)vertices).Length; i++)
 		{
 			vertices[i] += (permaVerts[i] - vertices[i]) * (Time.deltaTime * bounceBackSpeed);
 			if (!((permaVerts[i] - vertices[i]).magnitude < bounceBackSleepCap))

@@ -94,7 +94,7 @@ public class S_Deformable : MonoBehaviour
 		if ((bool)HardnessMap)
 		{
 			Vector2[] uv = mesh.uv;
-			map = new float[Extensions.get_length((System.Array)uv)];
+			map = new float[uv.Length];
 			int num = 0;
 			int i = 0;
 			Vector2[] array = uv;
