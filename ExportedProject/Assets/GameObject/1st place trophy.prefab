@@ -1,18 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1304119460937125
+--- !u!1 &-113853019
 GameObject:
-  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4229212094915143}
-  - 33: {fileID: 33441298278420443}
-  - 23: {fileID: 23617447966156904}
-  - 65: {fileID: 65227300909909550}
-  - 54: {fileID: 54868828898494784}
-  - 114: {fileID: 114880449431906881}
+  - 4: {fileID: 446556}
   m_Layer: 19
   m_Name: 1st place trophy
   m_TagString: PART
@@ -20,94 +15,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4229212094915143
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304119460937125}
-  m_LocalRotation: {x: 0.7071067, y: 2.3040464E-07, z: 2.3040464E-07, w: -0.7071068}
-  m_LocalPosition: {x: -9.72, y: -0.239, z: 6.83}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!33 &33441298278420443
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304119460937125}
-  m_Mesh: {fileID: 4300000, guid: 250eeb2ebcd8c50429d5651b3d07f132, type: 2}
---- !u!23 &23617447966156904
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304119460937125}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 304498047b28c804ca8990065ff7ba7c, type: 2}
-  m_SubsetIndices:
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &65227300909909550
-BoxCollider:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304119460937125}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Size: {x: 0.23, y: 0.2324521, z: 0.45540014}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &54868828898494784
-Rigidbody:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304119460937125}
-  m_Mass: 4
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
---- !u!114 &114880449431906881
+--- !u!114 &-66672063
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304119460937125}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   fsm:
     usedInTemplate: {fileID: 0}
     name: Use
     startState: State 2
     states:
     - name: State 1
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -153,18 +78,18 @@ MonoBehaviour:
         actionEnabled: 010101010101
         actionIsOpen: 010101010101
         actionStartIndex: 00000000010000000400000006000000080000000e000000
-        actionHashCodes: 257aa72f09e362)9c3e6a9581cc678/6d000fc5c6c6bd90d
+        actionHashCodes: 257aa72f09e36299c3e6a9581cc678f6d000fc5c6c6bd90d
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
@@ -172,16 +97,16 @@ MonoBehaviour:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -194,49 +119,49 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 1st place trophy(itemx)
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Transform
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: UniqueTagTransform
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: UniqueTagTransform
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: trophies.txt
@@ -246,7 +171,7 @@ MonoBehaviour:
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 13000000130000001200000001000000140000001200000014000000110000000c000000120000001200000012000000120000000100000017000000170000001200000012000000
         paramName:
@@ -271,7 +196,7 @@ MonoBehaviour:
         paramDataPos: 0000000001000000000000000000000000000000010000000100000001000000000000000200000003000000040000000500000003000000040000000c0000000600000007000000
         paramByteDataSize: 000000000000000000000000010000000000000000000000000000000200000000000000000000000000000000000000000000000100000008000000040000000000000000000000
     - name: State 2
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -313,9 +238,9 @@ MonoBehaviour:
         fsmObjectParams: []
         fsmVarParams: []
         byteData: cdcc4c3e0046494e495348454401
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 0f0000001700000001000000
         paramName:
@@ -325,7 +250,7 @@ MonoBehaviour:
         paramDataPos: 00000000050000000d000000
         paramByteDataSize: 050000000800000001000000
     - name: Load
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -360,8 +285,8 @@ MonoBehaviour:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -374,22 +299,22 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: UniqueTagTransform
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: trophies.txt
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 00
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 14000000120000001200000001000000
         paramName:
@@ -400,7 +325,7 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000000000000
         paramByteDataSize: 00000000000000000000000001000000
     - name: Save
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -420,15 +345,15 @@ MonoBehaviour:
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 4287a4.b
+        actionHashCodes: 4287a4eb
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -441,22 +366,22 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: UniqueTagTransform
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: trophies.txt
         fsmObjectParams: []
         fsmVarParams: []
-        byteData:
-        arrayParamSizes:
+        byteData: 
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 140000001200000012000000
         paramName:
@@ -466,7 +391,7 @@ MonoBehaviour:
         paramDataPos: 000000000000000001000000
         paramByteDataSize: 000000000000000000000000
     - name: State 3
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -493,8 +418,8 @@ MonoBehaviour:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -508,9 +433,9 @@ MonoBehaviour:
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 000000000000000000000000010000803f000000803f000000803f000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 140000001c0000000f0000000f0000000f0000000100000001000000
         paramName:
@@ -548,29 +473,29 @@ MonoBehaviour:
       boolVariables:
       - useVariable: 1
         name: ItemConsumed
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       stringVariables:
       - useVariable: 1
         name: ID
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
-        value:
+        value: 
       - useVariable: 1
         name: UniqueTagConsumed
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
-        value:
+        value: 
       - useVariable: 1
         name: UniqueTagTransform
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
-        value:
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -579,29 +504,41 @@ MonoBehaviour:
       gameObjectVariables:
       - useVariable: 1
         name: Owner
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description:
-    docUrl:
+    description: 
+    docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
-    watermark:
+    watermark: 
     version: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
     StepFrame: 0
-    activeStateName:
+    activeStateName: 
   fsmTemplate: {fileID: 0}
+--- !u!4 &446556
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -113853019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1001 &100100000
 Prefab:
-  serializedVersion: 2
   m_ObjectHideFlags: 1
+  serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []

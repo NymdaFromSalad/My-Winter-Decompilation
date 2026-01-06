@@ -1,18 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1477050248095538
+--- !u!1 &-1889900750
 GameObject:
-  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4419502208807668}
-  - 33: {fileID: 33795580639277873}
-  - 23: {fileID: 23420920150968401}
-  - 65: {fileID: 65221302644059369}
-  - 54: {fileID: 54918177311975608}
-  - 114: {fileID: 114075069082059628}
+  - 4: {fileID: 411754}
   m_Layer: 19
   m_Name: cigarettes0
   m_TagString: PART
@@ -20,94 +15,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4419502208807668
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477050248095538}
-  m_LocalRotation: {x: -0.4118725, y: -0.8636977, z: -0.27554768, w: 0.09198284}
-  m_LocalPosition: {x: 2.4482422, y: 1.2210093, z: 4.039673}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!33 &33795580639277873
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477050248095538}
-  m_Mesh: {fileID: 4300000, guid: 4990627e23dc7784398f3797ec6ac390, type: 2}
---- !u!23 &23420920150968401
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477050248095538}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: ad8a1759432fbc74f9c33336e7c8f3ba, type: 2}
-  m_SubsetIndices:
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &65221302644059369
-BoxCollider:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477050248095538}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Size: {x: 0.023521043, y: 0.067632034, z: 0.09078909}
-  m_Center: {x: -0.00018650029, y: -2.8863606E-11, z: 0.0003775007}
---- !u!54 &54918177311975608
-Rigidbody:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477050248095538}
-  m_Mass: 0.3
-  m_Drag: 0.1
-  m_AngularDrag: 0.1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
---- !u!114 &114075069082059628
+--- !u!114 &-1034075284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1477050248095538}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   fsm:
     usedInTemplate: {fileID: 0}
     name: Use
     startState: State 2
     states:
     - name: State 1
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -151,18 +76,18 @@ MonoBehaviour:
         actionEnabled: 0101010101
         actionIsOpen: 0101010101
         actionStartIndex: 0000000001000000040000000600000008000000
-        actionHashCodes: 257aa72f09e362)9c3e6a9581cc678/66c6bd90d
+        actionHashCodes: 257aa72f09e36299c3e6a9581cc678f66c6bd90d
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
@@ -170,16 +95,16 @@ MonoBehaviour:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -192,34 +117,34 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: cigarettes(itemx)
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveItems
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: items.txt
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 00000046494e495348454453415645
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 130000001300000012000000010000001400000012000000140000001100000017000000170000001200000012000000
         paramName:
@@ -238,7 +163,7 @@ MonoBehaviour:
         paramDataPos: 0000000001000000000000000000000000000000010000000100000001000000030000000b0000000200000003000000
         paramByteDataSize: 000000000000000000000000010000000000000000000000000000000200000008000000040000000000000000000000
     - name: Load
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -275,16 +200,16 @@ MonoBehaviour:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -297,22 +222,22 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveItems
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: items.txt
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 00000000000000000000000000010000803f000000803f000000803f000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 14000000120000001200000001000000140000001c0000000f0000000f0000000f0000000100000001000000
         paramName:
@@ -330,7 +255,7 @@ MonoBehaviour:
         paramDataPos: 0000000000000000010000000000000001000000010000000e00000013000000180000001d0000001e000000
         paramByteDataSize: 00000000000000000000000001000000000000000d0000000500000005000000050000000100000001000000
     - name: Save
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -360,15 +285,15 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000004000000
-        actionHashCodes: 3334d1724287a4.b
+        actionHashCodes: 3334d1724287a4eb
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -381,22 +306,22 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveItems
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: items.txt
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 00014974656d436f6e73756d656444455354524f5900
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 11000000170000001700000001000000140000001200000012000000
         paramName:
@@ -410,11 +335,11 @@ MonoBehaviour:
         paramDataPos: 000000000e0000001500000015000000000000000000000001000000
         paramByteDataSize: 0e000000070000000000000001000000000000000000000000000000
     - name: Destroy
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 263.3047
+        x: 263.304688
         y: 570
         width: 100
         height: 16
@@ -440,12 +365,12 @@ MonoBehaviour:
         actionEnabled: 010101010101
         actionIsOpen: 010101010101
         actionStartIndex: 000000000400000007000000090000000b0000000d000000
-        actionHashCodes: 83d22e,829b4727bc3e6a958c3e6a958c3e6a9588b80e9*5
+        actionHashCodes: 83d22ec829b4727bc3e6a958c3e6a958c3e6a9588b80e9a5
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
@@ -453,40 +378,40 @@ MonoBehaviour:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -498,29 +423,29 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Rigidbody
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: BoxCollider
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: MeshRenderer
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0000000000014974656d436f6e73756d65640100000000000000000000000000000147617262616765537061776e506f73000000000100000000010000000001000000000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 14000000130000001100000011000000110000001100000001000000140000001200000014000000120000001400000012000000140000001c0000000f0000000f0000000f000000070000000100000001000000
         paramName:
@@ -548,7 +473,7 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000002000000040000001200000014000000010000000000000002000000010000000300000002000000040000001500000031000000360000003b000000400000004400000045000000
         paramByteDataSize: 000000000000000002000000020000000e0000000200000001000000000000000000000000000000000000000000000000000000000000001c000000050000000500000005000000040000000100000001000000
     - name: Wait player 2
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -578,15 +503,15 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000003000000
-        actionHashCodes: 29b4727b0829dc(b
+        actionHashCodes: 29b4727b0829dc8b
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -603,7 +528,7 @@ MonoBehaviour:
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmInt
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 110000001100000001000000140000000f000000170000001700000017000000170000000c00000010000000100000001100000001000000
         paramName:
@@ -624,7 +549,7 @@ MonoBehaviour:
         paramDataPos: 00000000080000000a000000000000000b0000001000000018000000180000001800000000000000180000001d0000002200000024000000
         paramByteDataSize: 0800000002000000010000000000000005000000080000000000000000000000000000000000000005000000050000000200000001000000
     - name: Wait button 2
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -664,15 +589,15 @@ MonoBehaviour:
         actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 000000000b0000000e000000
-        actionHashCodes: 0829dc(b29b4727bb30867(2
+        actionHashCodes: 0829dc8b29b4727bb3086782
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -684,8 +609,8 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Use
@@ -695,7 +620,7 @@ MonoBehaviour:
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmInt
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 140000000f000000170000001700000017000000170000000c00000010000000100000001100000001000000110000001100000001000000120000001700000011000000
         paramName:
@@ -719,7 +644,7 @@ MonoBehaviour:
         paramDataPos: 000000000000000005000000050000000500000005000000000000000d0000001200000017000000190000001a0000002200000024000000000000002500000028000000
         paramByteDataSize: 0000000005000000000000000000000000000000080000000000000005000000050000000200000001000000080000000200000001000000000000000300000002000000
     - name: State 2
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -761,9 +686,9 @@ MonoBehaviour:
         fsmObjectParams: []
         fsmVarParams: []
         byteData: cdcc4c3e0046494e495348454401
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 0f0000001700000001000000
         paramName:
@@ -773,7 +698,7 @@ MonoBehaviour:
         paramDataPos: 00000000050000000d000000
         paramByteDataSize: 050000000800000001000000
     - name: Add inventory
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -815,15 +740,15 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: POV
-            tooltip:
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -835,29 +760,29 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: HouseFoley
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: cigarette_boxopen
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: FixedJoint
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0000803f0000000000000100000000000000803f0000014755497573650000000000000001506c6179657243696761726574746573140000000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 1400000012000000120000000f0000000f0000001100000011000000110000000f0000001400000012000000110000001100000001000000100000001000000001000000
         paramName:
@@ -881,7 +806,7 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000000000000050000000a0000000c0000000e000000100000000100000002000000150000001d0000001f00000020000000350000003a000000
         paramByteDataSize: 0000000000000000000000000500000005000000020000000200000002000000050000000000000000000000080000000200000001000000150000000500000001000000
     - name: Check pocket
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -931,9 +856,9 @@ MonoBehaviour:
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0000000001506c6179657243696761726574746573000000000055534555534553544f5000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 100000001000000017000000170000001700000001000000
         paramName:
@@ -946,7 +871,7 @@ MonoBehaviour:
         paramDataPos: 00000000150000001a0000001d0000002000000024000000
         paramByteDataSize: 150000000500000003000000030000000400000001000000
     - name: State 5
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -979,22 +904,22 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveItems
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: items.txt
         fsmObjectParams: []
         fsmVarParams: []
-        byteData:
-        arrayParamSizes:
+        byteData: 
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 1200000012000000
         paramName:
@@ -1047,17 +972,17 @@ MonoBehaviour:
       boolVariables:
       - useVariable: 1
         name: ItemConsumed
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       stringVariables:
       - useVariable: 1
         name: ID
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
-        value:
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -1066,29 +991,41 @@ MonoBehaviour:
       gameObjectVariables:
       - useVariable: 1
         name: Owner
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
-    description:
-    docUrl:
+    description: 
+    docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
-    watermark:
+    watermark: 
     version: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
     StepFrame: 0
-    activeStateName:
+    activeStateName: 
   fsmTemplate: {fileID: 0}
+--- !u!4 &411754
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: -1889900750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1001 &100100000
 Prefab:
-  serializedVersion: 2
   m_ObjectHideFlags: 1
+  serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []

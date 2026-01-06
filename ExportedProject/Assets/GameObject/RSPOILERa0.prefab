@@ -1,113 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1325922842890564
-GameObject:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_Component:
-  - 4: {fileID: 4463852946904042}
-  - 33: {fileID: 33131066737222915}
-  - 23: {fileID: 23435602321288563}
-  - 54: {fileID: 54099276847875798}
-  - 65: {fileID: 65638798618472175}
-  - 114: {fileID: 114788790206878721}
-  m_Layer: 19
-  m_Name: RSPOILERa0
-  m_TagString: PART
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4463852946904042
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325922842890564}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!33 &33131066737222915
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325922842890564}
-  m_Mesh: {fileID: 4300000, guid: cb2332364a13b5e4fbb2a14a00f7b4e8, type: 2}
---- !u!23 &23435602321288563
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325922842890564}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 298b76bdaa3cbe943b0997797728ce1f, type: 2}
-  m_SubsetIndices:
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!54 &54099276847875798
-Rigidbody:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325922842890564}
-  m_Mass: 2
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
---- !u!65 &65638798618472175
-BoxCollider:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325922842890564}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Size: {x: 1.484516, y: 0.13976899, z: 0.095575}
-  m_Center: {x: -1.3574759E-16, y: 0.0041235, z: -0.013049737}
---- !u!114 &114788790206878721
+--- !u!114 &-394636287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1325922842890564}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   fsm:
     usedInTemplate: {fileID: 0}
     name: Data
     startState: Init
     states:
     - name: Init
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -151,18 +61,18 @@ MonoBehaviour:
         actionEnabled: 0101010101
         actionIsOpen: 0101010101
         actionStartIndex: 0000000001000000040000000b00000012000000
-        actionHashCodes: 257aa72f09e362)9f9db6a,6f9db6a,66c6bd90d
+        actionHashCodes: 257aa72f09e36299f9db6ac6f9db6ac66c6bd90d
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
@@ -176,67 +86,67 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: AID
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: UTAssemblyID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: ID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: POS
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: UTPos
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: UTAssemblyID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveCarparts
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: carparts.txt
@@ -247,7 +157,7 @@ MonoBehaviour:
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmString
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 130000001300000012000000010000000c0000001200000012000000120000001100000012000000110000000c00000012000000120000001200000011000000120000001100000017000000170000001200000012000000
         paramName:
@@ -276,7 +186,7 @@ MonoBehaviour:
         paramDataPos: 0000000001000000000000000000000000000000010000000200000003000000010000000400000003000000010000000500000006000000070000000500000008000000070000000900000010000000090000000a000000
         paramByteDataSize: 00000000000000000000000001000000000000000000000000000000000000000200000000000000020000000000000000000000000000000000000002000000000000000200000007000000040000000000000000000000
     - name: Load
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -306,15 +216,15 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000004000000
-        actionHashCodes: 644845.c2b5f2913
+        actionHashCodes: 644845ec2b5f2913
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -327,34 +237,34 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: UTAssemblyID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveCarparts
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: carparts.txt
         - useVariable: 1
           name: UTPos
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveCarparts
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: carparts.txt
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0000000001417373656d626c7949440000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 1000000012000000120000000100000014000000120000001200000001000000
         paramName:
@@ -369,7 +279,7 @@ MonoBehaviour:
         paramDataPos: 0000000000000000010000000f00000000000000020000000300000010000000
         paramByteDataSize: 0f00000000000000000000000100000000000000000000000000000001000000
     - name: Save
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -401,15 +311,15 @@ MonoBehaviour:
         actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 000000000400000007000000
-        actionHashCodes: 3334d1723b1852.54287a4.b
+        actionHashCodes: 3334d1723b1852e54287a4eb
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -422,34 +332,34 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: UTAssemblyID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveCarparts
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: carparts.txt
         - useVariable: 1
           name: UTPos
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveCarparts
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: carparts.txt
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0001436f6e73756d656450524f43454544000000000001417373656d626c794944
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 11000000170000001700000001000000100000001200000012000000140000001200000012000000
         paramName:
@@ -466,7 +376,7 @@ MonoBehaviour:
         paramDataPos: 000000000a0000001100000011000000120000000000000001000000000000000200000003000000
         paramByteDataSize: 0a0000000700000000000000010000000f0000000000000000000000000000000000000000000000
     - name: Status
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -508,23 +418,23 @@ MonoBehaviour:
         actionEnabled: 01010101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000900000010000000
-        actionHashCodes: f9db6a,6c3e6a9580886306071d53d18
+        actionHashCodes: f9db6ac6c3e6a9580886306071d53d18
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -537,31 +447,31 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: Name
-          tooltip:
+          tooltip: 
           showInInspector: 1
           networkSync: 0
           value: Parcel Shelf
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: (VINXX)
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: Name
-          tooltip:
+          tooltip: 
           showInInspector: 1
           networkSync: 0
           value: Parcel Shelf
         - useVariable: 1
           name: Name
-          tooltip:
+          tooltip: 
           showInInspector: 1
           networkSync: 0
           value: Parcel Shelf
@@ -571,7 +481,7 @@ MonoBehaviour:
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 0c0000001200000012000000120000001100000012000000110000001400000012000000140000001c0000000f0000000f0000000f0000000100000001000000100000001000000017000000170000001700000001000000
         paramName:
@@ -600,7 +510,7 @@ MonoBehaviour:
         paramDataPos: 000000000000000001000000020000000000000003000000020000000000000004000000010000000400000011000000160000001b000000200000002100000022000000310000003600000036000000360000003d000000
         paramByteDataSize: 000000000000000000000000000000000200000000000000020000000000000000000000000000000d00000005000000050000000500000001000000010000000f0000000500000000000000000000000700000001000000
     - name: Is garbage
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -626,31 +536,31 @@ MonoBehaviour:
         actionEnabled: 01010101
         actionIsOpen: 01010101
         actionStartIndex: 00000000030000000500000007000000
-        actionHashCodes: 29b4727bc3e6a958c3e6a9588b80e9*5
+        actionHashCodes: 29b4727bc3e6a958c3e6a9588b80e9a5
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -662,23 +572,23 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Rigidbody
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: BoxCollider
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0001436f6e73756d65640100000000000000000000000000000147617262616765537061776e506f73000000000100000000010000000001000000000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 11000000110000000100000014000000120000001400000012000000140000001c0000000f0000000f0000000f000000070000000100000001000000
         paramName:
@@ -700,7 +610,7 @@ MonoBehaviour:
         paramDataPos: 000000000a0000000c00000000000000000000000100000001000000020000000d000000290000002e00000033000000380000003c0000003d000000
         paramByteDataSize: 0a000000020000000100000000000000000000000000000000000000000000001c000000050000000500000005000000040000000100000001000000
     - name: Idle
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -730,7 +640,7 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000002000000
-        actionHashCodes: d23668-c9ffa9c66
+        actionHashCodes: d23668dc9ffa9c66
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -742,7 +652,7 @@ MonoBehaviour:
         - TargetObject:
             useVariable: 1
             name: Collider
-            tooltip:
+            tooltip: 
             showInInspector: 1
             networkSync: 0
             typeName: UnityEngine.BoxCollider
@@ -751,57 +661,57 @@ MonoBehaviour:
           PropertyName: enabled
           BoolParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 1
           FloatParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
           IntParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
           GameObjectParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
           StringParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
-            value:
+            value: 
           Vector2Parameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {x: 0, y: 0}
           Vector3Parameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {x: 0, y: 0, z: 0}
           RectParamater:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value:
@@ -812,39 +722,39 @@ MonoBehaviour:
               height: 0
           QuaternionParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {x: 0, y: 0, z: 0, w: 0}
           ObjectParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             typeName: System.Boolean
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName:
+            typeName: 
             value: {fileID: 0}
           TextureParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName:
+            typeName: 
             value: {fileID: 0}
           ColorParameter:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {r: 0, g: 0, b: 0, a: 1}
@@ -854,9 +764,9 @@ MonoBehaviour:
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 000000000001417373656d626c794944000000000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 2400000001000000100000001000000001000000
         paramName:
@@ -868,7 +778,7 @@ MonoBehaviour:
         paramDataPos: 0000000000000000010000001000000015000000
         paramByteDataSize: 00000000010000000f0000000500000001000000
     - name: Another part?
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -902,12 +812,12 @@ MonoBehaviour:
         actionEnabled: 01010101
         actionIsOpen: 01010101
         actionStartIndex: 0000000005000000090000000e000000
-        actionHashCodes: a51886/03334d172cc35df.87f6e55)6
+        actionHashCodes: a51886f03334d172cc35dfe87f6e5596
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
@@ -916,7 +826,7 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: InstallPoint
-            tooltip:
+            tooltip: 
             showInInspector: 1
             networkSync: 0
             value: {fileID: 0}
@@ -924,7 +834,7 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: InstallPoint
-            tooltip:
+            tooltip: 
             showInInspector: 1
             networkSync: 0
             value: {fileID: 0}
@@ -935,8 +845,8 @@ MonoBehaviour:
         - target: 2
           excludeSelf:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
@@ -945,21 +855,21 @@ MonoBehaviour:
             gameObject:
               useVariable: 1
               name: InstallPoint
-              tooltip:
+              tooltip: 
               showInInspector: 1
               networkSync: 0
               value: {fileID: 0}
           fsmName:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: Data
           sendToChildren:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
@@ -968,41 +878,41 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Data
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Installed
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Data
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: ActivePart
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: CHECK
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0001496e7374616c6c6564000001496e7374616c6c656446494e49534845440000000000000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 14000000120000001200000011000000010000001100000017000000170000000100000014000000120000001200000013000000010000001f000000120000000f00000001000000
         paramName:
@@ -1027,7 +937,7 @@ MonoBehaviour:
         paramDataPos: 000000000000000001000000000000000b0000000c000000170000001f0000001f000000010000000200000003000000000000002000000000000000040000002100000026000000
         paramByteDataSize: 0000000000000000000000000b000000010000000b000000080000000000000001000000000000000000000000000000000000000100000000000000000000000500000001000000
     - name: Install 2
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1050,10 +960,10 @@ MonoBehaviour:
       actionData:
         actionNames: []
         customNames: []
-        actionEnabled:
-        actionIsOpen:
-        actionStartIndex:
-        actionHashCodes:
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1066,17 +976,17 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData:
-        arrayParamSizes:
+        byteData: 
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
-        paramDataType:
+        paramDataType: 
         paramName: []
-        paramDataPos:
-        paramByteDataSize:
+        paramDataPos: 
+        paramByteDataSize: 
     - name: Delete save
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1109,22 +1019,22 @@ MonoBehaviour:
         fsmStringParams:
         - useVariable: 1
           name: UTAssemblyID
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
-          value:
+          value: 
         - useVariable: 1
           name: SaveCarparts
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: carparts.txt
         fsmObjectParams: []
         fsmVarParams: []
-        byteData:
-        arrayParamSizes:
+        byteData: 
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 1200000012000000
         paramName:
@@ -1133,7 +1043,7 @@ MonoBehaviour:
         paramDataPos: 0000000001000000
         paramByteDataSize: 0000000000000000
     - name: Mouse off
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1163,15 +1073,15 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000003000000
-        actionHashCodes: 29b4727b0829dc(b
+        actionHashCodes: 29b4727b0829dc8b
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -1188,7 +1098,7 @@ MonoBehaviour:
         arrayParamSizes: 01000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmInt
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 110000001100000001000000140000000f000000170000001700000017000000170000000c000000100000001100000001000000
         paramName:
@@ -1208,7 +1118,7 @@ MonoBehaviour:
         paramDataPos: 00000000100000001200000000000000130000001800000020000000200000002000000000000000200000002500000027000000
         paramByteDataSize: 10000000020000000100000000000000050000000800000000000000000000000000000000000000050000000200000001000000
     - name: Mouse over
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1248,15 +1158,15 @@ MonoBehaviour:
         actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 00000000030000000d000000
-        actionHashCodes: 29b4727b0829dc(b2d8b867b
+        actionHashCodes: 29b4727b0829dc8b2d8b867b
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 0
           gameObject:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
@@ -1273,7 +1183,7 @@ MonoBehaviour:
         arrayParamSizes: 01000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmInt
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 110000001100000001000000140000000f000000170000001700000017000000170000000c000000100000001100000001000000070000001700000011000000
         paramName:
@@ -1296,7 +1206,7 @@ MonoBehaviour:
         paramDataPos: 00000000100000001200000000000000130000001800000018000000180000001800000000000000200000002500000027000000280000002c00000033000000
         paramByteDataSize: 10000000020000000100000000000000050000000000000000000000000000000800000000000000050000000200000001000000040000000700000002000000
     - name: Stop
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1311,10 +1221,10 @@ MonoBehaviour:
       actionData:
         actionNames: []
         customNames: []
-        actionEnabled:
-        actionIsOpen:
-        actionStartIndex:
-        actionHashCodes:
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1327,17 +1237,17 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData:
-        arrayParamSizes:
+        byteData: 
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
-        paramDataType:
+        paramDataType: 
         paramName: []
-        paramDataPos:
-        paramByteDataSize:
+        paramDataPos: 
+        paramByteDataSize: 
     - name: Install 1
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1367,12 +1277,12 @@ MonoBehaviour:
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000005000000
-        actionHashCodes: cc35df.87f6e55)6
+        actionHashCodes: cc35dfe87f6e5596
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
@@ -1381,7 +1291,7 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: InstallPoint
-            tooltip:
+            tooltip: 
             showInInspector: 1
             networkSync: 0
             value: {fileID: 0}
@@ -1392,8 +1302,8 @@ MonoBehaviour:
         - target: 2
           excludeSelf:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
@@ -1402,21 +1312,21 @@ MonoBehaviour:
             gameObject:
               useVariable: 1
               name: InstallPoint
-              tooltip:
+              tooltip: 
               showInInspector: 1
               networkSync: 0
               value: {fileID: 0}
           fsmName:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: Data
           sendToChildren:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
@@ -1425,29 +1335,29 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Data
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: ActivePart
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: INSTALL
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 00000000000000
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 14000000120000001200000013000000010000001f000000120000000f00000001000000
         paramName:
@@ -1463,7 +1373,7 @@ MonoBehaviour:
         paramDataPos: 000000000000000001000000000000000000000000000000020000000100000006000000
         paramByteDataSize: 000000000000000000000000000000000100000000000000000000000500000001000000
     - name: Remove
-      description:
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1495,12 +1405,12 @@ MonoBehaviour:
         actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 000000000500000009000000
-        actionHashCodes: cc35df.87f6e55)6c631a949
+        actionHashCodes: cc35dfe87f6e5596c631a949
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
           name: Owner
-          tooltip:
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
@@ -1509,7 +1419,7 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: InstallPoint
-            tooltip:
+            tooltip: 
             showInInspector: 1
             networkSync: 0
             value: {fileID: 0}
@@ -1520,8 +1430,8 @@ MonoBehaviour:
         - target: 2
           excludeSelf:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
@@ -1530,21 +1440,21 @@ MonoBehaviour:
             gameObject:
               useVariable: 1
               name: InstallPoint
-              tooltip:
+              tooltip: 
               showInInspector: 1
               networkSync: 0
               value: {fileID: 0}
           fsmName:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: Data
           sendToChildren:
             useVariable: 0
-            name:
-            tooltip:
+            name: 
+            tooltip: 
             showInInspector: 0
             networkSync: 0
             value: 0
@@ -1553,29 +1463,29 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Data
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: ActivePart
         - useVariable: 0
-          name:
-          tooltip:
+          name: 
+          tooltip: 
           showInInspector: 0
           networkSync: 0
           value: REMOVE
         fsmObjectParams: []
         fsmVarParams: []
         byteData: 0000000000000046494e4953484544
-        arrayParamSizes:
+        arrayParamSizes: 
         arrayParamTypes: []
-        customTypeSizes:
+        customTypeSizes: 
         customTypeNames: []
         paramDataType: 14000000120000001200000013000000010000001f000000120000000f0000000100000017000000
         paramName:
@@ -1668,48 +1578,48 @@ MonoBehaviour:
       intVariables:
       - useVariable: 1
         name: AssemblyID
-        tooltip:
+        tooltip: 
         showInInspector: 1
         networkSync: 0
         value: 0
       boolVariables:
       - useVariable: 1
         name: Consumed
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
         name: Installed
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       stringVariables:
       - useVariable: 1
         name: ID
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
-        value:
+        value: 
       - useVariable: 1
         name: Name
-        tooltip:
+        tooltip: 
         showInInspector: 1
         networkSync: 0
         value: Rear Spoiler
       - useVariable: 1
         name: UTAssemblyID
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
-        value:
+        value: 
       - useVariable: 1
         name: UTPos
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
-        value:
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -1718,42 +1628,56 @@ MonoBehaviour:
       gameObjectVariables:
       - useVariable: 1
         name: InstallPoint
-        tooltip:
+        tooltip: 
         showInInspector: 1
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
         name: Owner
-        tooltip:
+        tooltip: 
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
       objectVariables:
       - useVariable: 1
         name: Collider
-        tooltip:
+        tooltip: 
         showInInspector: 1
         networkSync: 0
         typeName: UnityEngine.BoxCollider
         value: {fileID: 65638798618472175}
       materialVariables: []
       textureVariables: []
-    description: "Single attach point NO BOLTS\n"
-    docUrl:
+    description: 'Single attach point NO BOLTS
+
+'
+    docUrl: 
     showStateLabel: 1
     maxLoopCount: 0
-    watermark:
+    watermark: 
     version: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
     StepFrame: 0
-    activeStateName:
+    activeStateName: 
   fsmTemplate: {fileID: 0}
+--- !u!4 &487818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 2014105924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1001 &100100000
 Prefab:
-  serializedVersion: 2
   m_ObjectHideFlags: 1
+  serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
@@ -1761,3 +1685,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1325922842890564}
   m_IsPrefabParent: 1
+--- !u!1 &2014105924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 487818}
+  m_Layer: 19
+  m_Name: RSPOILERa0
+  m_TagString: PART
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
