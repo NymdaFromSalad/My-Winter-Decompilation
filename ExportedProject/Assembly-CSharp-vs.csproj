@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ReplaceFonts.cs" />
      <Compile Include="Assets\Scripts\Assembly-CSharp\AICarController.cs" />
      <Compile Include="Assets\Scripts\Assembly-CSharp\AI_OmaReitti.cs" />
      <Compile Include="Assets\Scripts\Assembly-CSharp\Achievement_t.cs" />

@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotor.cs">
     <Files>
       <File FileName="Assets\Plugins\Assembly-UnityScript-firstpass\BooGenerators.cs" Line="60" Column="1" />
-      <File FileName="Assets\Plugins\Assembly-CSharp-firstpass\Properties\AssemblyInfo.cs" Line="5" Column="1" />
-      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SetCharacterMotorProperties.cs" Line="138" Column="12" />
-      <File FileName="Assets\Scripts\Assembly-UnityScript\S_Deformable.cs" Line="98" Column="31" />
-      <File FileName="Assets\Scripts\Assembly-UnityScript\S_MetalRain.cs" Line="30" Column="17" />
-      <File FileName="Assets\Scripts\Assembly-UnityScript\deform_842.cs" Line="120" Column="54" />
+      <File FileName="Assets\Plugins\Assembly-CSharp-firstpass\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SetCharacterMotorProperties.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-UnityScript\S_Deformable.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-UnityScript\S_MetalRain.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-UnityScript\deform_842.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs" Line="5" Column="1" />
+      <File FileName="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotor.cs" Line="64" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
