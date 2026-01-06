@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{BC3C38AE-ED04-B288-BA63-7F92E64B03B8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Hub/Editor/5.0.0f4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Hub/Editor/5.0.0f4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\ForcedReset.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\MouseLook.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\AccountID_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\AppId_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\AppProofOfPurchaseKeyResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\AssociateWithClanResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\AudioPlayback_Status.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\AvatarImageLoaded_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\BroadcastUploadStart_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\BroadcastUploadStop_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CCallbackBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CCallbackBaseVTable.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CGameID.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CSteamID.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CallResult.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\Callback.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CallbackDispatcher.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CallbackIdentities.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CallbackIdentityAttribute.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CallbackMsg_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CheckFileSignature_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ClanOfficerListResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ClientGameServerDeny_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ClientUnifiedMessageHandle.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ComputeNewPlayerCompatibilityResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\Constants.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ControllerActionSetHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ControllerAnalogActionData_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ControllerAnalogActionHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ControllerDigitalActionData_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ControllerDigitalActionHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ControllerHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ControllerMotionData_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\CreateItemResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\DepotId_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\DlcInstalled_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\DllCheck.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\DownloadClanActivityCountsResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\DownloadItemResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EAccountType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EAppOwnershipFlags.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EAppReleaseState.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EAppType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EAuthSessionResponse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EBeginAuthSessionResult.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EBroadcastUploadResult.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EChatEntryType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EChatMemberStateChange.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EChatRoomEnterResponse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EChatSteamIDInstanceFlags.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ECheckFileSignature.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EControllerActionOrigin.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EControllerSource.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EControllerSourceMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EDenyReason.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EFailureType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EFriendFlags.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EFriendRelationship.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EGCResults.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EGamepadTextInputLineMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EGamepadTextInputMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EHTMLKeyModifiers.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EHTMLMouseButton.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EHTTPMethod.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EHTTPStatusCode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EItemPreviewType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EItemState.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EItemStatistic.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EItemUpdateStatus.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELaunchOptionType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELeaderboardDataRequest.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELeaderboardDisplayType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELeaderboardSortMethod.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELeaderboardUploadScoreMethod.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELobbyComparison.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELobbyDistanceFilter.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ELobbyType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EMarketingMessageFlags.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EMatchMakingServerResponse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EMouseCursor.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ENotificationPosition.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EOverlayToStoreFlag.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EP2PSend.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EP2PSessionError.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EPersonaChange.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EPersonaState.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ERegisterActivationCodeResult.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ERemoteStoragePlatform.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ERemoteStoragePublishedFileVisibility.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EResult.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ESNetSocketConnectionType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ESNetSocketState.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EServerMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ESteamAPICallFailure.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ESteamControllerLEDFlag.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ESteamControllerPad.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ESteamItemFlags.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ESteamUserStatType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUGCMatchingUGCType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUGCQuery.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUGCReadAction.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUniverse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUserHasLicenseForAppResult.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUserRestriction.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUserUGCList.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EUserUGCListSortOrder.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EVRHMDType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EVRScreenshotType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EVoiceResult.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EWorkshopEnumerationType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EWorkshopFileAction.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EWorkshopFileType.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EWorkshopVideoProvider.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EWorkshopVote.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\EncryptedAppTicketResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FavoritesListAccountsUpdated_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FavoritesListChanged_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FileDetailsResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FriendGameInfo_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FriendRichPresenceUpdate_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FriendSessionStateInfo_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FriendsEnumerateFollowingList_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FriendsGetFollowerCount_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FriendsGroupID_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\FriendsIsFollowing_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GCMessageAvailable_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GCMessageFailed_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSClientAchievementStatus_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSClientApprove_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSClientDeny_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSClientGroupStatus_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSClientKick_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSGameplayStats_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSPolicyResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSReputation_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSStatsReceived_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSStatsStored_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GSStatsUnloaded_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameConnectedChatJoin_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameConnectedChatLeave_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameConnectedClanChatMsg_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameConnectedFriendChatMsg_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameLobbyJoinRequested_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameOverlayActivated_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameRichPresenceJoinRequested_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameServer.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameServerChangeRequested_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GameWebCallback_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GamepadTextInputDismissed_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GetAuthSessionTicketResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GetUserItemVoteResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GetVideoURLResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GlobalAchievementPercentagesReady_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\GlobalStatsReceived_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HAuthTicket.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HHTMLBrowser.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HServerListRequest.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HServerQuery.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HSteamPipe.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HSteamUser.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_BrowserReady_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_CanGoBackAndForward_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_ChangedTitle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_CloseBrowser_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_FileOpenDialog_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_FinishedRequest_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_HideToolTip_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_HorizontalScroll_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_JSAlert_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_JSConfirm_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_LinkAtPosition_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_NeedsPaint_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_NewWindow_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_OpenLinkInNewTab_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_SearchResults_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_SetCursor_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_ShowToolTip_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_StartRequest_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_StatusText_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_URLChanged_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_UpdateToolTip_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTML_VerticalScroll_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTTPCookieContainerHandle.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTTPRequestCompleted_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTTPRequestDataReceived_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTTPRequestHandle.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\HTTPRequestHeadersReceived_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\IPCFailure_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\IPCountry_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingPingResponse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingPlayersResponse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingRulesResponse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingServerListResponse.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\InteropHelp.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ItemInstalled_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\JoinClanChatRoomCompletionResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LeaderboardEntry_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LeaderboardFindResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LeaderboardScoreUploaded_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LeaderboardScoresDownloaded_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LeaderboardUGCSet_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LicensesUpdated_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyChatMsg_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyChatUpdate_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyCreated_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyDataUpdate_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyEnter_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyGameCreated_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyInvite_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyKicked_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LobbyMatchList_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\LowBatteryPower_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MMKVPMarshaller.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ManifestId_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MatchMakingKeyValuePair_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MicroTxnAuthorizationResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerRemoteToFront_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerRemoteWillActivate_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerRemoteWillDeactivate_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerSelectsPlaylistEntry_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerSelectsQueueEntry_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsLooped_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPause_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlayNext_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlayPrevious_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlay_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlayingRepeatStatus_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsShuffled_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsVolume_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWillQuit_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\NativeMethods.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\NewLaunchQueryParameters_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\NumberOfCurrentPlayers_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\P2PSessionConnectFail_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\P2PSessionRequest_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\P2PSessionState_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\Packsize.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\PersonaStateChange_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\PlaybackStatusHasChanged_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\PublishedFileId_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\PublishedFileUpdateHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RegisterActivationCodeResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncProgress_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncStatusCheck_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncedClient_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncedServer_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageDeletePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageDownloadUGCResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumeratePublishedFilesByUserActionResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateUserPublishedFilesResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateUserSharedWorkshopFilesResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateUserSubscribedFilesResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateWorkshopFilesResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageFileReadAsyncComplete_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageFileShareResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageFileWriteAsyncComplete_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageGetPublishedFileDetailsResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageGetPublishedItemVoteDetailsResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishFileProgress_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishFileResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileDeleted_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileSubscribed_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileUnsubscribed_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileUpdated_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageSetUserPublishedFileActionResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageSubscribePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUnsubscribePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUpdatePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUpdateUserPublishedItemVoteResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUserVoteDetails_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SNetListenSocket_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SNetSocket_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ScreenshotHandle.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ScreenshotReady_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ScreenshotRequested_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SetPersonaNameResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SetUserItemVoteResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SocketStatusCallback_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\StartPlaytimeTrackingResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAPI.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAPICallCompleted_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAPICall_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAPIWarningMessageHook_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAPI_CheckCallbackRegistered_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAPI_PostAPIResultInProcess_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAppInstalled_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAppList.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamAppUninstalled_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamApps.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamClient.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamController.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamEncryptedAppTicket.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamFriends.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamGameServer.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamGameServerHTTP.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamGameServerInventory.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamGameServerNetworking.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamGameServerStats.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamGameServerUGC.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamGameServerUtils.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamHTMLSurface.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamHTTP.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamInventory.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamInventoryDefinitionUpdate_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamInventoryEligiblePromoItemDefIDs_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamInventoryFullUpdate_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamInventoryResultReady_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamInventoryResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamItemDef_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamItemDetails_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamItemInstanceID_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamLeaderboardEntries_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamLeaderboard_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamMatchmaking.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamMatchmakingServers.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamMusic.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamMusicRemote.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamNetworking.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamParamStringArray_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamRemoteStorage.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamScreenshots.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamServerConnectFailure_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamServersConnected_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamServersDisconnected_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamShutdown_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUGC.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUGCDetails_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUGCQueryCompleted_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUGCRequestUGCDetailsResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUnifiedMessages.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUnifiedMessagesSendMethodResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUser.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUserStats.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamUtils.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SteamVideo.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\StopPlaytimeTrackingResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\StoreAuthURLResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\SubmitItemUpdateResult_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UGCFileWriteStreamHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UGCHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UGCQueryHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UGCUpdateHandle_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UserAchievementIconFetched_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UserAchievementStored_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UserFavoriteItemsListChanged_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UserStatsReceived_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UserStatsStored_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\UserStatsUnloaded_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\ValidateAuthTicketResponse_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\Version.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\VolumeHasChanged_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\gameserveritem_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Steamworks\servernetadr_t.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\FirstPersonController.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\HeadBob.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\MouseLook.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\AxisTouchButton.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\ButtonHandler.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\Joystick.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\MobileControlRig.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\TiltInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\TouchPad.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\VirtualInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\Explosive.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\FireLight.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\Hose.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\SmokeParticles.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\WaterHoseParticles.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\AAMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Antialiasing.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Bloom.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomAndFlares.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomOptimized.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomScreenBlendMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Blur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BlurOptimized.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ContrastEnhance.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ContrastStretch.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\CreaseShading.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\DepthOfField.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\EdgeDetection.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Fisheye.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\GlobalFog.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Grayscale.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\HDRBloomMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ImageEffectBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ImageEffects.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\LensflareStyle34.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\MotionBlur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\PostEffectsBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Quads.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenOverlay.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\SepiaTone.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\SunShafts.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\TiltShift.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Tonemapping.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Triangles.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\TweakMode34.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Twirl.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Vortex.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\Displace.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\MeshContainer.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\PlanarReflection.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\SpecularLighting.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\Water.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterBasic.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterQuality.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterTile.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\WaterSimple.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\BooGenerators.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\BooStub.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotor.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotorJumping.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotorMovement.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotorMovingPlatform.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotorSliding.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterState.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\FPSInputController.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\MovementTransferOnJump.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\PlatformInputController.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\SmoothFollow.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\ThirdPersonController.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Plugins\Assembly-UnityScript-firstpass\UnityScriptStub.cs" />
+     <None Include="Assets\Shader\Tonemapper.shader" />
+     <None Include="Assets\Shader\Reflect-BumpSpec.shader" />
+     <None Include="Assets\Shader\ProjectorMultiply.shader" />
+     <None Include="Assets\Shader\Reflect-Bumped.shader" />
+     <None Include="Assets\Shader\Compiled-TreeCreatorLeavesDOUBLE.shader" />
+     <None Include="Assets\TextAsset\talous.txt" />
+     <None Include="Assets\Shader\DLAA.shader" />
+     <None Include="Assets\Shader\Normal-Bumped.shader" />
+     <None Include="Assets\Shader\NFAA.shader" />
+     <None Include="Assets\Shader\Projector Multiply.shader" />
+     <None Include="Assets\Shader\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Shader\CarPaintReflectiveBumpedSpecNoMask.shader" />
+     <None Include="Assets\Shader\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\Shader\SeparableBlur.shader" />
+     <None Include="Assets\Shader\BlendModesOverlay.shader" />
+     <None Include="Assets\Shader\MobileBloom.shader" />
+     <None Include="Assets\Shader\SimpleClear.shader" />
+     <None Include="Assets\Shader\TextObjectCull.shader" />
+     <None Include="Assets\Shader\Alpha-Diffuse.shader" />
+     <None Include="Assets\Shader\Shader.shader" />
+     <None Include="Assets\Shader\Glassreflect2D.shader" />
+     <None Include="Assets\Shader\Particle Add.shader" />
+     <None Include="Assets\TextAsset\ulkomaat.txt" />
+     <None Include="Assets\Shader\Mobile-Particle-Multiply.shader" />
+     <None Include="Assets\Shader\Reflect-VertexLit.shader" />
+     <None Include="Assets\Shader\SSAA.shader" />
+     <None Include="Assets\TextAsset\urheilu.txt" />
+     <None Include="Assets\Shader\FXAA3Console.shader" />
+     <None Include="Assets\Shader\InvisibleShadowCaster.shader" />
+     <None Include="Assets\Shader\ContrastComposite.shader" />
+     <None Include="Assets\Shader\Mobile-Particle-Alpha.shader" />
+     <None Include="Assets\Shader\Alpha-VertexLit.shader" />
+     <None Include="Assets\Shader\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\Shader\FXAAPreset2.shader" />
+     <None Include="Assets\Shader\SunShaftsComposite.shader" />
+     <None Include="Assets\Shader\GrayscaleEffect.shader" />
+     <None Include="Assets\Shader\MotionBlurClear.shader" />
+     <None Include="Assets\Shader\FXAAPreset3.shader" />
+     <None Include="Assets\Shader\windshield2.shader" />
+     <None Include="Assets\Shader\FXAA2.shader" />
+     <None Include="Assets\Shader\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Shader\LightsEmmissive.shader" />
+     <None Include="Assets\Shader\FisheyeShader.shader" />
+     <None Include="Assets\TextAsset\ajatus.txt" />
+     <None Include="Assets\TextAsset\ruoka.txt" />
+     <None Include="Assets\Shader\Skybox-Procedural.shader" />
+     <None Include="Assets\Shader\Illumin-Diffuse.shader" />
+     <None Include="Assets\Shader\GlobalFog.shader" />
+     <None Include="Assets\TextAsset\kulttuuri.txt" />
+     <None Include="Assets\Shader\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\TextAsset\outrocredits.txt" />
+     <None Include="Assets\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\Shader\Skybox.shader" />
+     <None Include="Assets\Shader\NearClipParticleShader.shader" />
+     <None Include="Assets\Shader\Mobile-Particle-Add.shader" />
+     <None Include="Assets\TextAsset\chatlines.txt" />
+     <None Include="Assets\Shader\Particle Alpha Blend.shader" />
+     <None Include="Assets\Shader\CameraMotionBlur.shader" />
+     <None Include="Assets\Shader\StandardSpecular.shader" />
+     <None Include="Assets\TextAsset\kotimaa.txt" />
+     <None Include="Assets\Shader\MobileBlur.shader" />
+     <None Include="Assets\Shader\Unlit-AlphaTest.shader" />
+     <None Include="Assets\Shader\Shader_0.shader" />
+     <None Include="Assets\Shader\Reflect-Diffuse.shader" />
+     <None Include="Assets\Shader\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Shader\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Shader\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Shader\VignettingShader.shader" />
+     <None Include="Assets\Shader\Particle Premultiply Blend.shader" />
+     <None Include="Assets\Shader\TreeSoftOcclusionLeavesRendertex.shader" />
+     <None Include="Assets\Shader\Illumin-VertexLit.shader" />
+     <None Include="Assets\Shader\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\Shader\Particle AddMultiply.shader" />
+     <None Include="Assets\Shader\Normal-Glossy.shader" />
+     <None Include="Assets\Shader\windshield.shader" />
+     <None Include="Assets\Shader\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Shader\windshield3.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/5.0.0f4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="cInput">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/cInput.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/MoodkieSecurity.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/PlayMaker.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>D:/MWCDec/DEC/ExportedProject/Assets/Plugins/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
