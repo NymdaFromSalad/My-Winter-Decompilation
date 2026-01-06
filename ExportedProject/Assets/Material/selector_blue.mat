@@ -8,44 +8,15 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: selector_blue
   m_Shader: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords:
+  m_ShaderKeywords: 
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs: {}
-    m_Floats:
-    - first:
-        name: _Shininess
-      second: 0.7
-    - first:
-        name: _Stencil
-      second: 0
-    - first:
-        name: _StencilComp
-      second: 8
-    - first:
-        name: _StencilOp
-      second: 0
-    - first:
-        name: _StencilReadMask
-      second: 255
-    - first:
-        name: _StencilWriteMask
-      second: 255
-    - first:
-        name: _ColorMask
-      second: 15
-    - first:
-        name: _Strength
-      second: 0.2
+    m_Floats: {}
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 0.04282008, g: 0.13933413, b: 0.5294118, a: 1}
-    - first:
-        name: _SpecColor
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _Emission
-      second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Color
+        second: {r: .234467715, g: .184904814, b: .838235259, a: 1}
