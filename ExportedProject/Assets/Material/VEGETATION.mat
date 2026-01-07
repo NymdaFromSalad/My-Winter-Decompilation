@@ -8,47 +8,50 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: VEGETATION
   m_Shader: {fileID: 4800000, guid: 64ddcb3d6fcd1b942bdba90f46e65855, type: 3}
-  m_ShaderKeywords:
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: db13007da9af5de429fc267c8d67a5a9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: db13007da9af5de429fc267c8d67a5a9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _Cutoff
-      second: 0.8
-    - first:
-        name: _Shininess
-      second: 0.078125
-    - first:
-        name: _Occlusion
-      second: 0
-    - first:
-        name: _SquashAmount
-      second: 1
-    - first:
-        name: _BaseLight
-      second: 0.5
-    - first:
-        name: _AO
-      second: 10
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Occlusion
+        second: 7.5
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
+      data:
+        first:
+          name: _BaseLight
+        second: .349999994
+      data:
+        first:
+          name: _AO
+        second: 2.4000001
     m_Colors:
-    - first:
-        name: _Scale
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _Color
-      second: {r: 0.42647058, g: 0.42647058, b: 0.42647058, a: 1}
-    - first:
-        name: _TreeInstanceColor
-      second: {r: 1, g: 1, b: 1, a: 1}
-    - first:
-        name: _TreeInstanceScale
-      second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TreeInstanceColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TreeInstanceScale
+        second: {r: 1, g: 1, b: 1, a: 1}
