@@ -25,21 +25,21 @@ Material:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 72172c358938c404ca44202ab343eee5, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Rain
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: cdd8f368c51793d4cb6344be3718c14d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: .483999997
       data:
         first:
           name: _RainOpacity
