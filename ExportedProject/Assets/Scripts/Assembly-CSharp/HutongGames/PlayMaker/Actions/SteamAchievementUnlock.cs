@@ -20,7 +20,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override void OnEnter()
 		{
-			success.Value = SteamManager.StatsAndAchievements.UnlockAchievement(achievementId.Value);
+			//success.Value = SteamManager.StatsAndAchievements.UnlockAchievement(achievementId.Value);
 		}
 	}
 }

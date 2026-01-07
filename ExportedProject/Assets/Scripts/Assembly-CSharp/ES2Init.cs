@@ -12,7 +12,7 @@ public class ES2Init : MonoBehaviour
 
 	public static void Init()
 	{
-		ES2TypeManager.types = new Dictionary<Type, ES2Type>();
+		/*ES2TypeManager.types = new Dictionary<Type, ES2Type>();
 		ES2TypeManager.types[typeof(Vector2)] = new ES2_Vector2();
 		ES2TypeManager.types[typeof(Vector3)] = new ES2_Vector3();
 		ES2TypeManager.types[typeof(Vector4)] = new ES2_Vector4();
@@ -47,6 +47,6 @@ public class ES2Init : MonoBehaviour
 		ES2TypeManager.types[typeof(BoneWeight)] = new ES2_BoneWeight();
 		ES2TypeManager.types[typeof(SkinnedMeshRenderer)] = new ES2_SkinnedMeshRenderer();
 		ES2TypeManager.types[typeof(sbyte)] = new ES2_sbyte();
-		ES2TypeManager.types[typeof(Sprite)] = new ES2_Sprite();
+		ES2TypeManager.types[typeof(Sprite)] = new ES2_Sprite();*/
 	}
 }

@@ -29,7 +29,7 @@ public class ForceFeedback : MonoBehaviour
 	[DllImport("user32")]
 	private static extern int GetForegroundWindow();
 
-	[DllImport("UnityForceFeedback")]
+	/*[DllImport("UnityForceFeedback")]
 	private static extern int InitDirectInput(int HWND);
 
 	[DllImport("UnityForceFeedback")]
@@ -48,13 +48,13 @@ public class ForceFeedback : MonoBehaviour
 	private static extern bool SetAutoCenter(bool autoCentre);
 
 	[DllImport("UnityForceFeedback")]
-	private static extern void FreeDirectInput();
+	private static extern void FreeDirectInput();*/
 
 	public void Start()
 	{
 		cardynamics = GetComponent<CarDynamics>();
 		InitialiseForceFeedback();
-		SetAutoCenter(false);
+		//SetAutoCenter(false);
 	}
 
 	public void Update()
@@ -70,7 +70,7 @@ public class ForceFeedback : MonoBehaviour
 			forceFeedback = (float)clampValue * Mathf.Sign(forceFeedback);
 		}
 		force = (int)(forceFeedback * multiplier) * factor * sign;
-		SetDeviceForcesXY(force, 0);
+		//SetDeviceForcesXY(force, 0);
 	}
 
 	public void OnApplicationQuit()
@@ -86,18 +86,18 @@ public class ForceFeedback : MonoBehaviour
 			return;
 		}
 		int foregroundWindow = GetForegroundWindow();
-		InitDirectInput(foregroundWindow);
-		Aquire();
-		StartEffect();
+		//InitDirectInput(foregroundWindow);
+		//Aquire();
+		//StartEffect();
 		forceFeedbackEnabled = true;
 	}
 
 	private void ShutDownForceFeedback()
 	{
-		StopEffect();
+		//StopEffect();
 		if (forceFeedbackEnabled)
 		{
-			FreeDirectInput();
+			//FreeDirectInput();
 		}
 		else
 		{

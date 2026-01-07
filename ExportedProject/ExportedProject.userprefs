@@ -1,15 +1,29 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Assembly-CSharp\SteamManager.cs">
     <Files>
-      <File FileName="Assets\Plugins\Assembly-UnityScript-firstpass\BooGenerators.cs" Line="60" Column="1" />
-      <File FileName="Assets\Plugins\Assembly-CSharp-firstpass\Properties\AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SetCharacterMotorProperties.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Assembly-UnityScript\S_Deformable.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Assembly-UnityScript\S_MetalRain.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Assembly-UnityScript\deform_842.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Plugins\Assembly-UnityScript-firstpass\CharacterMotor.cs" Line="64" Column="8" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\CollectionsActions.cs" Line="65" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveAudioClip.cs" Line="31" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveBool.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveBoxCollider.cs" Line="43" Column="4" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveCapsuleCollider.cs" Line="44" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveColor.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveFloat.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveInt.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveKey.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveMaterial.cs" Line="31" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveMeshCollider.cs" Line="44" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveQuaternion.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveSphereCollider.cs" Line="44" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveString.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveTexture.cs" Line="31" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveTransform.cs" Line="44" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveVector2.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SaveVector3.cs" Line="29" Column="66" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\ForceFeedback.cs" Line="57" Column="5" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\GameObjectIsChildOf.cs" Line="47" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\HutongGames\PlayMaker\Actions\SteamAchievementUnlock.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\SteamManager.cs" Line="130" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

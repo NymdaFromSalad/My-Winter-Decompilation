@@ -1133,6 +1133,8 @@
      <Compile Include="Assets\Scripts\Assembly-UnityScript\SmoothFollow.cs" />
      <Compile Include="Assets\Scripts\Assembly-UnityScript\deform_842.cs" />
      <Compile Include="Assets\Scripts\Assembly-UnityScript\ikLimb.cs" />
+     <Compile Include="Assets\Scripts\ES2.cs" />
+     <Compile Include="Assets\Scripts\ES2TypeManager.cs" />
      <None Include="Assets\Shader\Tonemapper.shader" />
      <None Include="Assets\Shader\Reflect-BumpSpec.shader" />
      <None Include="Assets\Shader\ProjectorMultiply.shader" />

@@ -115,32 +115,11 @@ namespace HutongGames.PlayMaker.Actions
 			}
 			else
 			{
-				if (!web.isDone)
-				{
-					return;
-				}
 				base.Fsm.Event(isDownloaded);
-				string text = "false";
-				if (encryption.Value)
-				{
-					text = "true";
-				}
-				if (localFile.Value != string.Empty)
-				{
-					web.SaveToFile(string.Concat(localFile.Value, "?tag=", uniqueTag, "&encrypt=", text, "&password=", password.Value));
-				}
-				Log("Loaded from " + saveFile.Value + "?tag=" + uniqueTag);
-				string text2 = "&savelocation=file";
-				List<string> list = ES2.LoadList<string>(localFile.Value + "?tag=" + uniqueTag.Value + "&encrypt=" + text + "&password=" + filePassword.Value + text2);
-				Log("Loaded from " + localFile.Value + "?tag=" + uniqueTag);
-				Debug.LogWarning("Persistent Data Path:" + Application.persistentDataPath);
 				proxy.arrayList.Clear();
-				foreach (string item in list)
-				{
-					proxy.arrayList.Add(PlayMakerUtils.ParseValueFromString(item));
-				}
 				Finish();
 			}
 		}
+
 	}
 }
